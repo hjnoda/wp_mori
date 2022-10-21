@@ -1,0 +1,76 @@
+.adminpannel a{
+    color: #fff;
+}
+.adminpannel a:hover {
+    text-decoration: none;
+}
+.adminpannel a:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+.adminpannel a:hover dt,
+.adminpannel a:hover dd{
+    color: #FF7D26;
+    cursor: pointer;
+    text-decoration: none;
+}
+.adminpannel dl {
+    display: flex;
+}
+.adminpannel dt {
+    font-size:.8rem;
+    min-width: 100px;
+    height: 100px;
+    display: flex;
+    background:#1D2427;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    justify-content: center;
+    transition: all .3s;
+    text-align: center;
+}
+.adminpannel dt i {
+    padding: 10px;
+}
+.adminpannel dd {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #1D2427;
+    transition: all .3s;
+}
+@media (min-width: 768px) {
+.adminpannel dt i {
+    padding: 5px;
+}
+.adminpannel dl {
+    display: flex;
+}
+.adminpannel dt {
+    font-size:1.2rem;
+    min-width: 200px;
+    height: 130px;
+    display: flex;
+    background:#1D2427;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 15px 30px 15px;
+    color: #fff;
+    border-radius: 4px;
+    justify-content: space-between;
+    transition: all .3s;
+}
+.adminpannel dt i {
+    padding: 15px;
+}
+.adminpannel dd {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #1D2427;
+    transition: all .3s;
+}
+}

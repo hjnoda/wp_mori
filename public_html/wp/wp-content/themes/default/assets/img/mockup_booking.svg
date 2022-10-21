@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="223.751" height="368" viewBox="0 0 223.751 368">
+  <g id="mockup_booking" transform="translate(-4147 -1047.398)">
+    <rect id="Container" width="193" height="368" rx="8" transform="translate(4163 1047.398)" fill="#dde3e9"/>
+    <g id="Camera" transform="translate(4239.282 1061.967)">
+      <circle id="Lens" cx="2.33" cy="2.33" r="2.33" fill="#fff"/>
+      <rect id="Sensor" width="25" height="4" rx="2" transform="translate(11.183)" fill="#fff"/>
+    </g>
+    <rect id="Background" width="159" height="317" rx="4" transform="translate(4178 1076.878)" fill="#fff"/>
+    <circle id="楕円形_14" data-name="楕円形 14" cx="26" cy="26" r="26" transform="translate(4234 1317)" fill="#fff" stroke="#f9bf29" stroke-width="5"/>
+    <path id="パス_304" data-name="パス 304" d="M3881.923,1327.525l11.569,9.891,13.636-16.992" transform="translate(365.059 14.08)" fill="none" stroke="#71bfa4" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+    <rect id="長方形_13" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4251 1126)" fill="#dde3e9"/>
+    <rect id="長方形_13-2" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4270 1126)" fill="#dde3e9"/>
+    <rect id="長方形_13-3" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4289 1126)" fill="#b6d3f0"/>
+    <rect id="長方形_13-4" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4308 1126)" fill="#b6d3f0"/>
+    <rect id="長方形_13-5" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4194 1148)" fill="#dde3e9"/>
+    <rect id="長方形_13-6" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4213 1148)" fill="#dde3e9"/>
+    <rect id="長方形_13-7" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4232 1148)" fill="#dde3e9"/>
+    <rect id="長方形_13-8" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4251 1148)" fill="#dde3e9"/>
+    <rect id="長方形_13-9" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4270 1148)" fill="#dde3e9"/>
+    <rect id="長方形_13-10" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4289 1148)" fill="#b6d3f0"/>
+    <rect id="長方形_13-11" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4308 1148)" fill="#b6d3f0"/>
+    <rect id="長方形_13-12" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4194 1170)" fill="#dde3e9"/>
+    <rect id="長方形_13-13" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4213 1170)" fill="#dde3e9"/>
+    <rect id="長方形_13-14" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4232 1170)" fill="#dde3e9"/>
+    <rect id="長方形_13-15" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4251 1170)" fill="#f9bf2e"/>
+    <rect id="長方形_13-16" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4270 1170)" fill="#dde3e9"/>
+    <rect id="長方形_13-17" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4289 1170)" fill="#b6d3f0"/>
+    <rect id="長方形_13-18" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4308 1170)" fill="#b6d3f0"/>
+    <rect id="長方形_13-19" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4194 1192)" fill="#dde3e9"/>
+    <rect id="長方形_13-20" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4213 1192)" fill="#dde3e9"/>
+    <rect id="長方形_13-21" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4232 1192)" fill="#dde3e9"/>
+    <rect id="長方形_13-22" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4251 1192)" fill="#dde3e9"/>
+    <rect id="長方形_13-23" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4270 1192)" fill="#dde3e9"/>
+    <rect id="長方形_13-24" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4289 1192)" fill="#b6d3f0"/>
+    <rect id="長方形_13-25" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4308 1192)" fill="#b6d3f0"/>
+    <rect id="長方形_13-26" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4194 1214)" fill="#dde3e9"/>
+    <rect id="長方形_13-27" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4213 1214)" fill="#dde3e9"/>
+    <rect id="長方形_13-28" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4232 1214)" fill="#dde3e9"/>
+    <rect id="長方形_13-29" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4251 1214)" fill="#dde3e9"/>
+    <rect id="長方形_13-30" data-name="長方形 13" width="16" height="16" rx="3" transform="translate(4270 1214)" fill="#dde3e9"/>
+    <circle id="楕円形_22" data-name="楕円形 22" cx="3" cy="3" r="3" transform="translate(4199 1130)" fill="#dde3e9"/>
+    <circle id="楕円形_23" data-name="楕円形 23" cx="3" cy="3" r="3" transform="translate(4218 1130)" fill="#dde3e9"/>
+    <g id="グループ_103" data-name="グループ 103" transform="translate(1)">
+      <circle id="楕円形_27" data-name="楕円形 27" cx="3" cy="3" r="3" transform="translate(4242 1097)" fill="#dde3e9"/>
+      <circle id="楕円形_28" data-name="楕円形 28" cx="3" cy="3" r="3" transform="translate(4256 1097)" fill="#dde3e9"/>
+      <circle id="楕円形_29" data-name="楕円形 29" cx="3" cy="3" r="3" transform="translate(4270 1097)" fill="#dde3e9"/>
+    </g>
+    <circle id="楕円形_25" data-name="楕円形 25" cx="3" cy="3" r="3" transform="translate(4294 1219)" fill="#dde3e9"/>
+    <circle id="楕円形_24" data-name="楕円形 24" cx="3" cy="3" r="3" transform="translate(4237 1130)" fill="#dde3e9"/>
+    <circle id="楕円形_26" data-name="楕円形 26" cx="3" cy="3" r="3" transform="translate(4313 1219)" fill="#dde3e9"/>
+    <g id="グループ_99" data-name="グループ 99" transform="translate(0 -11)">
+      <rect id="長方形_57" data-name="長方形 57" width="63" height="17" rx="3" transform="translate(4194 1255)" fill="#dde3e9"/>
+      <rect id="長方形_58" data-name="長方形 58" width="63" height="17" rx="3" transform="translate(4261 1255)" fill="#dde3e9"/>
+    </g>
+    <g id="グループ_100" data-name="グループ 100" transform="translate(0 10)">
+      <rect id="長方形_57-2" data-name="長方形 57" width="63" height="17" rx="3" transform="translate(4194 1255)" fill="#dde3e9"/>
+      <rect id="長方形_58-2" data-name="長方形 58" width="63" height="17" rx="3" transform="translate(4261 1255)" fill="#f9bf2e"/>
+    </g>
+    <g id="グループ_101" data-name="グループ 101" transform="translate(0 31)">
+      <rect id="長方形_57-3" data-name="長方形 57" width="63" height="17" rx="3" transform="translate(4194 1255)" fill="#dde3e9"/>
+    </g>
+    <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M13.812,13.623,19.436,8a1.062,1.062,0,1,0-1.5-1.5L11.56,12.871a1.06,1.06,0,0,0-.031,1.465l6.4,6.411a1.062,1.062,0,1,0,1.5-1.5Z" transform="translate(4182.75 1085.185)" fill="#dde3e9"/>
+    <path id="Icon_ionic-ios-arrow-back-2" data-name="Icon ionic-ios-arrow-back" d="M17.186,13.623,11.563,8a1.062,1.062,0,0,1,1.5-1.5l6.371,6.367a1.06,1.06,0,0,1,.031,1.465l-6.4,6.411a1.062,1.062,0,1,1-1.5-1.5Z" transform="translate(4304.252 1085.185)" fill="#dde3e9"/>
+    <rect id="Background-2" data-name="Background" width="223.751" height="70.362" rx="4" transform="translate(4147 1317)" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100.659" height="100" viewBox="0 0 100.659 100">
+  <g id="member" transform="translate(-4558.592 1239)">
+    <rect id="長方形_40" data-name="長方形 40" width="100" height="100" transform="translate(4559 -1239)" fill="none"/>
+    <g id="noun-user-1459855" transform="translate(4478.469 -1307.938)">
+      <path id="パス_423" data-name="パス 423" d="M214.717,217.655H209.2V167.637a8.037,8.037,0,0,0-8.037-8.037H182.81a1.8,1.8,0,0,0,0,3.6h18.352a4.427,4.427,0,0,1,4.438,4.438v50.019H127.273V167.637a4.427,4.427,0,0,1,4.438-4.438h17.152a1.8,1.8,0,1,0,0-3.6H131.831a8.037,8.037,0,0,0-8.037,8.037v50.019h-5.518a1.845,1.845,0,0,0-1.8,1.8v2.639a7.219,7.219,0,0,0,7.2,7.2h85.764a7.219,7.219,0,0,0,7.2-7.2v-2.639a1.869,1.869,0,0,0-1.919-1.8Zm-1.8,4.438a3.535,3.535,0,0,1-3.6,3.6H123.674a3.535,3.535,0,0,1-3.6-3.6v-.84h92.961v.84Z" transform="translate(-36.105 -66.451)" stroke="#eff2f1" stroke-width="0.5"/>
+      <path id="パス_424" data-name="パス 424" d="M255.92,245.145a1.845,1.845,0,0,0,1.8,1.8h36.7a1.845,1.845,0,0,0,1.8-1.8V226.194a19.556,19.556,0,0,0-19.552-19.552h-1.079a19.556,19.556,0,0,0-19.552,19.552v18.951Zm3.6-18.951a15.946,15.946,0,0,1,15.953-15.953h1.079A15.946,15.946,0,0,1,292.5,226.194v17.033H259.518Z" transform="translate(-145.679 -103.417)" stroke="#eff2f1" stroke-width="0.5"/>
+      <path id="パス_425" data-name="パス 425" d="M301.593,101.426A13.195,13.195,0,1,0,288.4,88.231,13.157,13.157,0,0,0,301.593,101.426Zm0-22.79a9.6,9.6,0,1,1-9.6,9.6A9.624,9.624,0,0,1,301.593,78.635Z" transform="translate(-171.201)" stroke="#eff2f1" stroke-width="0.5"/>
+    </g>
+    <rect id="長方形_26" data-name="長方形 26" width="65" height="15" transform="translate(4576 -1185)" fill="#eff2f1"/>
+    <path id="パス_426" data-name="パス 426" d="M0,0H59.123V13.644H0Z" transform="translate(4578.938 -1194.553)" fill="#eff2f1" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <rect id="長方形_27" data-name="長方形 27" width="59" height="14" transform="translate(4579 -1175)" fill="#eff2f1" stroke="#000" stroke-linejoin="round" stroke-width="3"/>
+    <text id="ID" transform="translate(4593 -1185)" font-size="7" font-family="FilsonSoftMedium, Filson Soft"><tspan x="-3.668" y="0">ID</tspan></text>
+    <text id="PASSWORD" transform="translate(4588 -1166)" font-size="7" font-family="FilsonSoftMedium, Filson Soft"><tspan x="0" y="0">PASSWORD</tspan></text>
+  </g>
+</svg>

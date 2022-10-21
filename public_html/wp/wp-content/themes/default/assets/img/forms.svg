@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="forms" transform="translate(-4885 1330)">
+    <rect id="長方形_39" data-name="長方形 39" width="100" height="100" transform="translate(4885 -1330)" fill="none"/>
+    <rect id="長方形_28" data-name="長方形 28" width="72" height="87" rx="6" transform="translate(4893 -1320)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3"/>
+    <rect id="長方形_29" data-name="長方形 29" width="10" height="10" transform="translate(4906 -1302)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3"/>
+    <rect id="長方形_30" data-name="長方形 30" width="10" height="10" transform="translate(4906 -1278)" stroke="#000" stroke-linejoin="round" stroke-width="3"/>
+    <rect id="長方形_31" data-name="長方形 31" width="10" height="10" transform="translate(4906 -1254)" stroke="#000" stroke-linejoin="round" stroke-width="3"/>
+    <line id="線_1" data-name="線 1" x2="29" transform="translate(4923.5 -1300.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="線_4" data-name="線 4" x2="29" transform="translate(4923.5 -1276.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="線_6" data-name="線 6" x2="29" transform="translate(4923.5 -1252.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="線_2" data-name="線 2" x2="20" transform="translate(4923.5 -1293.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="線_3" data-name="線 3" x2="20" transform="translate(4923.5 -1269.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="線_5" data-name="線 5" x2="20" transform="translate(4923.5 -1245.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <path id="パス_430" data-name="パス 430" d="M25.5,15.456l1.956,1.956L31.367,13.5" transform="translate(4882.566 -1288.456)" fill="none" stroke="#eff2f1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="パス_431" data-name="パス 431" d="M25.5,15.456l1.956,1.956L31.367,13.5" transform="translate(4882.566 -1264.456)" fill="none" stroke="#eff2f1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect id="長方形_32" data-name="長方形 32" width="30" height="13" rx="5" transform="translate(4915 -1326)" fill="#eff2f1" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Icon_metro-pencil" data-name="Icon metro-pencil" d="M28.6,1.928A4.82,4.82,0,0,1,32.455,9.64l-1.928,1.928L23.779,4.82l1.928-1.928A4.8,4.8,0,0,1,28.6,1.928ZM4.5,24.1,2.571,32.777l8.676-1.928L29.081,13.014,22.333,6.266ZM24.128,12.881l-13.5,13.5L8.97,24.716l13.5-13.5,1.662,1.662Z" transform="translate(4951.496 -1276.777)"/>
+    <path id="パス_432" data-name="パス 432" d="M4960.509-1251.864l1.541,1.782,13.713-13.683-1.7-1.924Z" fill="#eff2f1"/>
+  </g>
+</svg>

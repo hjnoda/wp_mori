@@ -1,0 +1,73 @@
+version: '3'
+
+services:
+  mysql:
+    container_name: politics_db
+    image: mysql:8.0
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_DATABASE=wp
+      - MYSQL_USER=wp
+      - MYSQL_PASSWORD=pass
+      - MYSQL_ROOT_PASSWORD=pass
+    volumes:
+      - ./docker_database:/etc/mysql/mysql.conf.d
+      - ./docker_database/initdb.d:/docker-entrypoint-initdb.d
+
+  wordpress:
+    container_name: politics_app
+    build: ./php
+    environment:
+      - MYSQL_DATABASE=wp
+      - MYSQL_USER=wp
+      - MYSQL_PASSWORD=pass
+    depends_on:
+      - mysql
+    volumes:
+      - ./public_html:/var/www/html
+
+  wordpress_nginx:
+    container_name: politics_web
+    image: nginx:mainline-alpine
+    ports:
+      - 8081:80
+    depends_on:
+      - wordpress
+    volumes:
+      - ./public_html:/var/www/html
+      - ./nginx/wordpress/default.conf:/etc/nginx/conf.d/default.conf
+
+  phpmyadmin:
+    container_name: politics_phpmyadmin
+    image: phpmyadmin/phpmyadmin:fpm-alpine
+    environment:
+      - PMA_HOST=mysql
+      - PMA_USER=wp
+      - PMA_PASSWORD=pass
+    depends_on:
+      - mysql
+    volumes:
+      - phpmyadmin_data:/var/www/html/
+
+  phpmyadmin_nginx:
+    container_name: politics_phpmyadmin_web
+    image: nginx:mainline-alpine
+    ports:
+      - 8080:80
+    depends_on:
+      - phpmyadmin
+    volumes:
+      - phpmyadmin_data:/var/www/html/
+      - ./nginx/phpmyadmin/default.conf:/etc/nginx/conf.d/default.conf
+
+  mailhog:
+    container_name: politics_mailhog
+    image: mailhog/mailhog
+    ports:
+      - 8025:8025
+
+volumes:
+  db_data:
+  phpmyadmin_data:
+  
