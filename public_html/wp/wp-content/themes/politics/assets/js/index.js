@@ -19,11 +19,19 @@ new Swiper(".messageSwiper", {
   loop: true,
   autoHeight: false,
   autoplay: true,
-  slidesPerView: 2,
+  slidesPerView: 1,
   centeredSlides: true,
-  spaceBetween: 100,
+  spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    992: {
+      spaceBetween: 100,
+    },
   },
 });
 

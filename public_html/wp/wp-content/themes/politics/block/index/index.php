@@ -87,7 +87,7 @@
       </section>
 
       <section id="idea">
-        <h3 title="policy">めざすこと</h3>
+        <h3 title="idea">めざすこと</h3>
         <ul class="policy">
           <li class="row">
             <div class="col-xl-4 order-xl-last">
@@ -155,42 +155,50 @@
         <h3 title="message">応援メッセージ</h3>
         <div class="swiper messageSwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide border">
-              <figure class="clear">
-                <img src="//picsum.photos/100/100?random" class="rounded-circle" width="100" height="100" alt="">
-                <figcaption>徳永エリ / 参議院議員</figcaption>
-              </figure>
-              <blockquote>
-                <p>私の秘書として4年半、清水くんは、日本一広い、参議院北海道選挙区をともに走り回り、どんなにきついスケジュールでも不満一つ言わすに私を支えてくれました。真面目で努力家、何事にも熱心に取り組みま
-                  す。これからは、その経験と行動力を手稲区の皆さんのために活かし、地域の課題解決につなげてくれるものと確信しています。国政と道政、連携して働ける日を楽しみにしていま!</p>
-              </blockquote>
+            <div class="swiper-slide">
+              <div class="content-wrap">
+                <figure class="clear">
+                  <img src="//picsum.photos/100/100?random" class="rounded-circle" width="100" height="100" alt="">
+                  <figcaption>徳永エリ / 参議院議員</figcaption>
+                </figure>
+                <blockquote>
+                  <p>私の秘書として4年半、清水くんは、日本一広い、参議院北海道選挙区をともに走り回り、どんなにきついスケジュールでも不満一つ言わすに私を支えてくれました。真面目で努力家、何事にも熱心に取り組みま
+                    す。これからは、その経験と行動力を手稲区の皆さんのために活かし、地域の課題解決につなげてくれるものと確信しています。国政と道政、連携して働ける日を楽しみにしていま!</p>
+                </blockquote>
+              </div>
             </div>
             <div class="swiper-slide">
-              <figure class="clear">
-                <img src="//picsum.photos/100/100?random" class="rounded-circle" width="100" height="100" alt="">
-                <figcaption>おおつき紅葉 / 参議院議員</figcaption>
-              </figure>
-              <blockquote>
-                <p>私も全力で応援します。</p>
-              </blockquote>
+              <div class="content-wrap">
+                <figure class="clear">
+                  <img src="//picsum.photos/100/100?random" class="rounded-circle" width="100" height="100" alt="">
+                  <figcaption>おおつき紅葉 / 参議院議員</figcaption>
+                </figure>
+                <blockquote>
+                  <p>私も全力で応援します。</p>
+                </blockquote>
+              </div>
             </div>
             <div class="swiper-slide">
-              <figure class="clear">
-                <img src="//picsum.photos/100/100?random" class="rounded-circle" width="100" height="100" alt="">
-                <figcaption>おの正美 / 札幌市議会議員</figcaption>
-              </figure>
-              <blockquote>
-                <p>共に頑張ります！</p>
-              </blockquote>
+              <div class="content-wrap">
+                <figure class="clear">
+                  <img src="//picsum.photos/100/100?random" class="rounded-circle" width="100" height="100" alt="">
+                  <figcaption>おの正美 / 札幌市議会議員</figcaption>
+                </figure>
+                <blockquote>
+                  <p>共に頑張ります！</p>
+                </blockquote>
+              </div>
             </div>
             <div class="swiper-slide">
-              <figure class="clear">
-                <img src="//picsum.photos/100/100?random" class="rounded-circle" width="100" height="100" alt="">
-                <figcaption>福士 勝 / 前・札幌市議会議員</figcaption>
-              </figure>
-              <blockquote>
-                <p>共に頑張ります！</p>
-              </blockquote>
+              <div class="content-wrap">
+                <figure class="clear">
+                  <img src="//picsum.photos/100/100?random" class="rounded-circle" width="100" height="100" alt="">
+                  <figcaption>福士 勝 / 前・札幌市議会議員</figcaption>
+                </figure>
+                <blockquote>
+                  <p>共に頑張ります！</p>
+                </blockquote>
+              </div>
             </div>
           </div>
         </div>
@@ -203,7 +211,7 @@
             <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" id="13" title="true" thumbnail="//localhost:8081/wp/wp-content/themes/politics/assets/img/newsletter-thumb.jpg"][/3d-flip-book]'); ?>
           </div>
           <div class="col">
-            <p>
+            <p class="mt-4 mt-lg-0">
               立憲民主党は、清水たかひろを須田靖子道議の後継として北海道議会議員選挙(手稲区)の公認候補予定者に決定しました。須田道議は「働く仲間の労働条件向上、安心な医療体制作り、環境問題」などの実現に向け、市民自治の向上や福祉のまちづくりに長年取り組んできました。
             </p>
             <p>清水たかひろは「須田道議の想いをしつかりと受け継ぎながら、これまでの経験を活かして手稲区民のみなさんと 緒に新しい政治をつくっていきたい」と抱負を述べていきます。</p>
