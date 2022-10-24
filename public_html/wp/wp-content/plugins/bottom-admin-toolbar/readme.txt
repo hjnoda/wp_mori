@@ -3,9 +3,9 @@ Contributors: devloper00
 Donate link: https://ko-fi.com/devloper
 Tags: admin, bar, adminbar, bottom bar, toolbar, wordpress, bottom
 Requires at least: 4.9 or higher
-Tested up to: 5.9
+Tested up to: 6.0.2
 Requires PHP: 5.6
-Stable tag: 1.4.1
+Stable tag: 1.5.1
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,14 @@ For example when you develop a website which has a sticky header
 1. Bottom Admin Toolbar in action
 
 == Changelog ==
+
+= 1.5.1 =
+* Use dynamic bar height if bigger than default size
+
+= 1.5 =
+* Show / Hide toolbar in administration
+* Update deprecated javascript function
+* Refacto code
 
 = 1.4.1 =
 * Add custom class on admin bar for compatiblity with Dynamic Plugins

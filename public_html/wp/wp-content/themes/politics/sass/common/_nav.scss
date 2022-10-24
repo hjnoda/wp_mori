@@ -1,0 +1,41 @@
+@use "../setting/setting" as *;
+.navbar {
+  transition: all 0.3s;
+  height: 100px;
+  &.is-scroll {
+    background-color: $primary;
+    height: 70px;
+  }
+}
+.navbar-brand {
+  text-align-last: justify;
+  display: inline-block;
+  max-width: 300px;
+  line-height: 1.2;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  .navbar-brand-sub {
+    font-size: 1rem;
+    display: block;
+  }
+  h1 {
+    margin: inherit;
+    padding: inherit;
+    font-size: inherit;
+  }
+}
+.navbar-expand-lg {
+  .navbar-nav {
+    .nav-link {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-size: 1.1rem;
+      color: $white;
+    }
+    .btn {
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;
+    }
+  }
+}
