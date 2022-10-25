@@ -1,2 +1,42 @@
 @use "../../setting/setting" as *;
 @use "../../common/common" as *;
+
+//中ページ用 layout & 見出し
+.post-area {
+  min-height: 50vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  section {
+    visibility: hidden;
+    &:not(:first-child) {
+      margin-top: 10rem;
+      @include mq(max, sm) {
+        margin-top: 4rem;
+      }
+    }
+  }
+  h3 {
+    margin-bottom: 2.4rem;
+    font-size: 2rem;
+    @include mq(min, md) {
+      font-size: 2.3rem;
+    }
+    span {
+      display: block;
+      font-family: $en;
+      font-size: 1.6rem;
+      position: relative;
+      padding-left: 70px;
+      margin-bottom: 0.5rem;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 0;
+        width: 55px;
+        height: 1px;
+        background-color: #78a990;
+      }
+    }
+  }
+}

@@ -1,35 +1,42 @@
 <main class="index">
-  <div class="container">
-    <div class="pr">
-      <div class="wrap width-max p-0">
-        <div class="swiper prSwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="slide-img">
-                <img src="https://picsum.photos/id/1041/2560/1600" alt="img1">
-              </div>
+
+  <div class="pr">
+    <div class="wrap">
+      <div class="swiper prSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <img src="<?= img('pr1.jpg'); ?>" class="img-fluid" alt="img1">
             </div>
-            <div class="swiper-slide">
-              <div class="slide-img">
-                <img src="https://picsum.photos/id/1016/2560/1600" alt="img2">
-              </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <img src="<?= img('pr2.jpg'); ?>" class="img-fluid" alt="img2">
             </div>
-            <div class="swiper-slide">
-              <div class="slide-img">
-                <img src="https://picsum.photos/id/1056/2560/1600" alt="img3">
-              </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <img src="<?= img('pr3.jpg'); ?>" class="img-fluid" alt="img3">
             </div>
           </div>
         </div>
       </div>
-      <div class="catchcopy">
-        <h2><ruby>清水<rt class="fs-4">しみず</rt></ruby>たかひろ</h2>
-        <p>新たな世代で政治を変える<br>手稲区と道政をつなぐ</p>
+    </div>
+    <div class="container">
+      <div class="pr-catch">
+        <figure class="catch-img">
+          <img src="<?= img('pr.png'); ?>" class="pr-img" alt="">
+        </figure>
+        <div class="catch-text">
+          <h2><ruby>清水<rt class="fs-4">しみず</rt></ruby>たかひろ</h2>
+          <p>新たな世代で政治を変える<br>手稲区と道政をつなぐ</p>
+        </div>
       </div>
     </div>
+  </div>
 
-    <div class="index-content">
-
+  <div class="index-content">
+    <div class="container">
       <section id="news" class="width-max">
         <h3 title="news">新着情報</h3>
         <div class="swiper newsSwiper">
@@ -67,7 +74,7 @@
       <section id="greeting">
         <h3 title="greeting">ご挨拶</h3>
         <div class="layer-l">
-          <figure><img src="//picsum.photos/960/540?random" alt=""></figure>
+          <figure><img src="<?= img('greeting.jpg'); ?>" alt=""></figure>
           <div class="layer-text">
             <p class="text-start text-md-center text-xl-start">
               みなさんの声を道政に届けていくため、<br>手稲区が直面している様々な課題にしっかりと向き合います。<br>手稲区が持っている素晴らしい財産、魅力を存分に活かし、<br>活力あふれる元気なまち「ていね」の未来実現に向けて、<br>自らのこれまでの経験と持てる力の全てを注ぎ、全力を尽くす決意です。<br>一緒に未来を創りましょう！
@@ -75,7 +82,7 @@
           </div>
         </div>
         <div class="layer-r d-none">
-          <figure><img src="//picsum.photos/960/540?random" alt=""></figure>
+          <figure><img src="<?= img('greeting.jpg'); ?>" alt=""></figure>
           <div class="layer-text">
             <p>
               みなさんの声を道政に届けていくため、<br>手稲区が直面している様々な課題にしっかりと向き合います。<br>手稲区が持っている素晴らしい財産、魅力を存分に活かし、<br>活力あふれる元気なまち「ていね」の未来実現に向けて、<br>自らのこれまでの経験と持てる力の全てを注ぎ、全力を尽くす決意です。<br>一緒に未来を創りましょう！
@@ -89,7 +96,7 @@
         <ul class="idea">
           <li class="row">
             <div class="col-xl-4 order-xl-last">
-              <figure class="ms-xl-5"><img src="//picsum.photos/960/960?random" alt=""></figure>
+              <figure class="ms-xl-5"><img src="<?= img('idea1.jpg'); ?>" alt=""></figure>
             </div>
             <div class="col-xl-8">
               <h4 title="01">みなさんの笑顔が輝く元気なまち「ていね」</h4>
@@ -100,7 +107,7 @@
           </li>
           <li class="row">
             <div class="col-xl-4">
-              <figure class="me-xl-5"><img src="//picsum.photos/960/960?random" alt=""></figure>
+              <figure class="me-xl-5"><img src="<?= img('idea2.jpg'); ?>" alt=""></figure>
             </div>
             <div class="col-xl-8">
               <h4 title="02">自然の豊かさを活かした<br>魅力あふれる元気なまち「ていね」</h4>
@@ -111,7 +118,7 @@
           </li>
           <li class="row row-eq-height">
             <div class="col-xl-4 order-xl-last">
-              <figure class="ms-xl-5"><img src="//picsum.photos/960/960?random" alt=""></figure>
+              <figure class="ms-xl-5"><img src="<?= img('idea3.jpg'); ?>" alt=""></figure>
             </div>
             <div class="col-xl-8">
               <h4 title="03">産業を軸に資源と経済が循穎する<br>活力あふれる元気なまち「ていね」</h4>
@@ -125,7 +132,10 @@
         <h3 title="profile">プロフィール</h3>
         <div class="row">
           <div class="col-xl-4">
-            <figure class="vertical"><img src="//picsum.photos/540/960?random" alt=""></figure>
+            <figure class="vertical">
+              <img src="<?= img('profile.png'); ?>" class="img-fluid d-none d-xl-block" alt="清水たかひろ">
+              <img src="<?= img('profile_sp.jpg'); ?>" class="img-fluid d-block d-xl-none" alt="清水たかひろ">
+            </figure>
           </div>
           <div class="col-xl-8">
             <dl class="profile">

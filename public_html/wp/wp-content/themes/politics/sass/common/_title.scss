@@ -1,1 +1,50 @@
 @use "../setting/setting" as *;
+
+.page-title {
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  @include mq(min, md) {
+    height: 25rem;
+  }
+}
+.page-title {
+  .breadcrumb {
+    display: none;
+    @include mq(min, md) {
+      display: block;
+    }
+    font-size: 14px;
+    margin: 0;
+    color: rgba($black, 0.5);
+    a {
+      text-decoration: none;
+      color: $primary;
+    }
+  }
+  .title-data {
+    width: 100%;
+    display: block;
+    @include mq(min, md) {
+      text-align: right;
+    }
+    h2 {
+      margin-top: 20px;
+      font-size: 1.4rem;
+      color: rgba($black, 0.7);
+      &.single-title {
+        text-transform: uppercase;
+      }
+      span {
+        display: block;
+        font-size: 3.6rem;
+        font-family: $en;
+        text-transform: uppercase;
+        color: $black;
+        @include mq(min, md) {
+          font-size: 4.3rem;
+        }
+      }
+    }
+  }
+}

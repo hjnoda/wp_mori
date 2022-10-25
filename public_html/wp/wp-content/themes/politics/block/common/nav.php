@@ -4,7 +4,7 @@
     arial-label="offcanvas">
 
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="<?= home_url(); ?>">
         <h1>清水たかひろ</h1>
       </a>
 
@@ -26,12 +26,12 @@
           </a>
         </div>
         <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li><a class="nav-link" href="#greeting">ご挨拶</a></li>
-            <li><a class="nav-link" href="#idea">めざすこと</a></li>
-            <li><a class="nav-link" href="#profile">プロフィール</a></li>
-            <li><a class="nav-link" href="#message">応援メッセージ</a></li>
-            <li><a class="nav-link" href="#news">お知らせ</a></li>
+          <ul class="navbar-nav nav-menu justify-content-end flex-grow-1">
+            <li><a class="nav-link" href="<?= home_url(); ?>#greeting">ご挨拶</a></li>
+            <li><a class="nav-link" href="<?= home_url(); ?>#idea">めざすこと</a></li>
+            <li><a class="nav-link" href="<?= home_url(); ?>#profile">プロフィール</a></li>
+            <li><a class="nav-link" href="<?= home_url(); ?>#message">応援メッセージ</a></li>
+            <li><a class="nav-link" href="<?= home_url(); ?>#news">お知らせ</a></li>
             <li><a class="nav-link" href="/contact.html">お問い合わせ</a></li>
           </ul>
           <ul class="navbar-nav d-flex flex-row align-items-center ms-2 ms-xl-0 mt-3 mt-xl-0">

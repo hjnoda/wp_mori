@@ -1,7 +1,29 @@
 @use "../setting/setting" as *;
 .navbar {
   transition: all 0.3s;
-  height: 100px;
+  &.navbar-dark {
+    height: 100px;
+    .nav-link {
+      color: $white;
+      &:hover {
+        color: $dark;
+      }
+    }
+  }
+  &.navbar-light {
+    background-color: $primary;
+    .navbar-brand {
+      h1 {
+        color: $white;
+      }
+    }
+    .nav-link {
+      color: $white;
+      &:hover {
+        color: $dark;
+      }
+    }
+  }
   &.is-scroll {
     background-color: $primary;
     height: 70px;
@@ -25,26 +47,35 @@
     font-size: inherit;
   }
 }
-.navbar-expand-xl {
-  .navbar-nav {
-    .nav-link {
-      padding-left: 1rem;
-      padding-right: 1rem;
-      font-size: 1.1rem;
-      color: $white;
-    }
-    .btn {
-      margin-left: 0.25rem;
-      margin-right: 0.25rem;
-    }
+
+.navbar-nav {
+  .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.1rem;
   }
-  .offcanvas {
-    &.show {
-      .nav-link {
-        color: $body_color;
+  .btn {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}
+.offcanvas {
+  width: 80%;
+  &.show {
+    .nav-menu {
+      li {
+        &:not(:last-child) {
+          border-bottom: 1px solid $primary;
+        }
       }
     }
+    .nav-link {
+      color: $body_color;
+    }
   }
+}
+.offcanvas-body {
+  padding: 0;
 }
 .offcanvas-header {
   line-height: 1.5;
