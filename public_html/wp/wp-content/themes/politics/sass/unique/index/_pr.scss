@@ -30,6 +30,7 @@
   }
   .pr-catch {
     position: absolute;
+    padding-top: 5%;
     bottom: 0;
     width: 100%;
     z-index: 1;
@@ -39,14 +40,17 @@
       flex-direction: column-reverse;
       max-width: 1500px;
       margin: 0 auto;
-      @include mq(min, lg) {
+      @include mq(min, xl) {
         flex-direction: row;
       }
     }
     .catch-img {
       margin: 0;
       padding-right: 5rem;
-      max-width: 700px;
+      max-width: 50vh;
+      @include mq(min, xl) {
+        max-width: 72vh;
+      }
       .pr-img {
         width: 100%;
         height: auto;
