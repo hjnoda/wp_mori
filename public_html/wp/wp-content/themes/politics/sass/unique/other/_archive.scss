@@ -1,2 +1,42 @@
 @use "../../setting/setting" as *;
 @use "../../common/common" as *;
+.post {
+  .news-link {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: $body_color;
+    @include mq(min, md) {
+      gap: 15px;
+      margin-top: 15px;
+    }
+    img {
+      flex: 1 1 30%;
+      aspect-ratio: 3/2;
+      max-width: 100px;
+      object-fit: cover;
+      width: 100%;
+      height: auto;
+      @include mq(min, md) {
+        max-width: 150px;
+      }
+    }
+    .news-content {
+      flex: 2 2 auto;
+    }
+
+    .news-date {
+      font-size: 14px;
+      color: $body_color;
+      opacity: 0.6;
+      .news-cat {
+        color: $primary;
+        opacity: 1;
+      }
+      .divider {
+        padding: 0 0.5rem;
+      }
+    }
+  }
+}
