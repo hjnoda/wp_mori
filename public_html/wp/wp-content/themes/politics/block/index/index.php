@@ -1,37 +1,33 @@
 <main class="index">
 
   <div class="pr">
-    <div class="wrap">
-      <div class="swiper prSwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="slide-img">
-              <img src="<?= img('pr1.jpg'); ?>" class="img-fluid" alt="img1">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slide-img">
-              <img src="<?= img('pr2.jpg'); ?>" class="img-fluid" alt="img2">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slide-img">
-              <img src="<?= img('pr3.jpg'); ?>" class="img-fluid" alt="img3">
-            </div>
+    <div class="swiper prSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr1.jpg) no-repeat center / cover;">
           </div>
         </div>
-      </div>
-      <div class="container">
+        <div class="swiper-slide">
+          <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr2.jpg) no-repeat center / cover;">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr3.jpg) no-repeat center / cover;">
+          </div>
+        </div>
         <div class="pr-catch">
-          <figure class="catch-img">
-            <img src="<?= img('pr.png'); ?>" class="pr-img" alt="">
-          </figure>
-          <div class="catch-text">
-            <h2><ruby>清水<rt class="fs-4">しみず</rt></ruby>たかひろ</h2>
-            <p>新たな世代で政治を変える<br>手稲区と道政をつなぐ</p>
+          <div class="container">
+            <figure class="catch-img">
+              <img src="<?= img('pr.png'); ?>" class="pr-img" alt="">
+            </figure>
+            <div class="catch-text">
+              <h2><ruby>清水<rt class="fs-4">しみず</rt></ruby>たかひろ</h2>
+              <p>新たな世代で政治を変える<br>手稲区と道政をつなぐ</p>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
