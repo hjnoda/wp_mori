@@ -21,15 +21,15 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="pr-catch">
-        <figure class="catch-img">
-          <img src="<?= img('pr.png'); ?>" class="pr-img" alt="">
-        </figure>
-        <div class="catch-text">
-          <h2><ruby>清水<rt class="fs-4">しみず</rt></ruby>たかひろ</h2>
-          <p>新たな世代で政治を変える<br>手稲区と道政をつなぐ</p>
+      <div class="container">
+        <div class="pr-catch">
+          <figure class="catch-img">
+            <img src="<?= img('pr.png'); ?>" class="pr-img" alt="">
+          </figure>
+          <div class="catch-text">
+            <h2><ruby>清水<rt class="fs-4">しみず</rt></ruby>たかひろ</h2>
+            <p>新たな世代で政治を変える<br>手稲区と道政をつなぐ</p>
+          </div>
         </div>
       </div>
     </div>
