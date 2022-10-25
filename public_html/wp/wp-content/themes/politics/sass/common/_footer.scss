@@ -1,1 +1,31 @@
 @use "../setting/setting" as *;
+
+.footer {
+  background-color: $dark;
+  color: $white;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  a {
+    color: $white;
+  }
+}
+.address {
+  line-height: 1.2;
+  margin-top: 1rem;
+  color: rgba($white, 0.7);
+}
+.copyright {
+  padding-top: 3rem;
+  font-size: 12px;
+  color: rgba($white, 0.5);
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  @include mq(min, lg) {
+    gap: 2rem;
+    flex-direction: row;
+  }
+}

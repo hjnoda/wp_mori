@@ -25,7 +25,7 @@
     font-size: inherit;
   }
 }
-.navbar-expand-lg {
+.navbar-expand-xl {
   .navbar-nav {
     .nav-link {
       padding-left: 1rem;
@@ -38,4 +38,17 @@
       margin-right: 0.25rem;
     }
   }
+  .offcanvas {
+    &.show {
+      .nav-link {
+        color: $body_color;
+      }
+    }
+  }
+}
+.offcanvas-header {
+  line-height: 1.5;
+}
+.offcanvas-title {
+  color: $primary;
 }

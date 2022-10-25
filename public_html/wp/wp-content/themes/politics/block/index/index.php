@@ -1,7 +1,7 @@
 <main class="index">
   <div class="container">
     <div class="pr">
-      <div class="wrap width-max">
+      <div class="wrap width-max p-0">
         <div class="swiper prSwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -20,8 +20,6 @@
               </div>
             </div>
           </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
         </div>
       </div>
       <div class="catchcopy">
@@ -32,7 +30,7 @@
 
     <div class="index-content">
 
-      <section id="news">
+      <section id="news" class="width-max">
         <h3 title="news">新着情報</h3>
         <div class="swiper newsSwiper">
           <div class="swiper-wrapper">
@@ -59,7 +57,7 @@
           wp_reset_query();
         ?>
           </div>
-          <div class="swiper-pagination swiper-pagination-custom"></div>
+          <div class="swiper-pagination swiper-pagination-custom swiper-pagination-news"></div>
         </div>
         <div class="btn-center">
           <a href="/c/news" class="btn btn-more btn-primary mx-auto">全件を見る</a>
@@ -67,11 +65,11 @@
       </section>
 
       <section id="greeting">
-        <h3 title="message">メッセージ</h3>
+        <h3 title="greeting">ご挨拶</h3>
         <div class="layer-l">
           <figure><img src="//picsum.photos/960/540?random" alt=""></figure>
           <div class="layer-text">
-            <p>
+            <p class="text-start text-md-center text-xl-start">
               みなさんの声を道政に届けていくため、<br>手稲区が直面している様々な課題にしっかりと向き合います。<br>手稲区が持っている素晴らしい財産、魅力を存分に活かし、<br>活力あふれる元気なまち「ていね」の未来実現に向けて、<br>自らのこれまでの経験と持てる力の全てを注ぎ、全力を尽くす決意です。<br>一緒に未来を創りましょう！
             </p>
           </div>
@@ -88,7 +86,7 @@
 
       <section id="idea">
         <h3 title="idea">めざすこと</h3>
-        <ul class="policy">
+        <ul class="idea">
           <li class="row">
             <div class="col-xl-4 order-xl-last">
               <figure class="ms-xl-5"><img src="//picsum.photos/960/960?random" alt=""></figure>
@@ -151,7 +149,7 @@
         </div>
       </section>
 
-      <section id="message">
+      <section id="message" class="width-max bg-light">
         <h3 title="message">応援メッセージ</h3>
         <div class="swiper messageSwiper">
           <div class="swiper-wrapper">
@@ -201,6 +199,7 @@
               </div>
             </div>
           </div>
+          <div class="swiper-pagination swiper-pagination-custom swiper-pagination-message"></div>
         </div>
       </section>
 

@@ -8,7 +8,7 @@ new Swiper(".prSwiper", {
   },
   speed: 2000,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper-pagination-pr",
     clickable: true,
   },
 });
@@ -23,13 +23,15 @@ new Swiper(".messageSwiper", {
   centeredSlides: true,
   spaceBetween: 30,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper-pagination-message",
   },
   breakpoints: {
     768: {
       slidesPerView: 2,
+      spaceBetween: 30,
     },
     992: {
+      slidesPerView: 2,
       spaceBetween: 100,
     },
   },
@@ -45,7 +47,7 @@ new Swiper(".newsSwiper", {
   slidesPerView: 2,
   spaceBetween: 20,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper-pagination-news",
   },
   breakpoints: {
     992: {

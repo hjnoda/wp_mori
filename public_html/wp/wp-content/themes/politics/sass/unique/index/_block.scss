@@ -1,2 +1,311 @@
 @use "../../setting/setting" as *;
 @use "../../common/common" as *;
+
+.index-content {
+  padding-bottom: 10rem;
+  section {
+    padding-top: 5rem;
+    @include mq(min, md) {
+      padding-top: 10rem;
+    }
+  }
+  h3 {
+    font-size: 1rem;
+    text-align: center;
+    color: $dark;
+    margin-bottom: 2.6rem;
+    &::before {
+      content: attr(title);
+      display: block;
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: rgba($primary, 1);
+    }
+    @include mq(min, md) {
+      font-size: 1.3rem;
+      margin-bottom: 4rem;
+      &::before {
+        font-size: 3rem;
+      }
+    }
+  }
+  h4 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  br {
+    display: none;
+    @include mq(min, md) {
+      display: block;
+    }
+  }
+  figure:not(.clear) {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    @include mq(min, xl) {
+      &.vertical {
+        aspect-ratio: 3 / 4;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  #greeting {
+    p {
+      padding: 1.5rem;
+    }
+    @include mq(min, xl) {
+      .layer-l {
+        position: relative;
+        padding-right: 30%;
+        padding-bottom: 10%;
+        .layer-text {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          z-index: 1;
+          p {
+            background-color: $white;
+            padding: 3rem;
+          }
+        }
+      }
+      .layer-r {
+        position: relative;
+        padding-left: 30%;
+        padding-bottom: 10%;
+        .layer-text {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          z-index: 1;
+          p {
+            background-color: $white;
+            padding: 3rem;
+          }
+        }
+      }
+    }
+  }
+
+  .idea {
+    list-style: none;
+    padding: 0;
+    h4 {
+      font-size: 1.6rem;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+      &::before {
+        content: attr(title);
+        font-style: italic;
+        font-size: 260%;
+        font-family: $en;
+        line-height: 1;
+        display: block;
+        text-transform: uppercase;
+        color: $primary;
+      }
+      @include mq(min, lg) {
+        font-size: 2.2rem;
+      }
+    }
+    figure {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        left: 0;
+        top: 0;
+        background: $secondary;
+      }
+      @include mq(min, xl) {
+        aspect-ratio: 1 / 1;
+        margin: 0;
+      }
+    }
+    li {
+      margin-top: 4rem;
+    }
+  }
+
+  .profile {
+    position: relative;
+    &::before {
+      content: "";
+      left: 9px;
+      top: 9px;
+      width: 2px;
+      background: rgb(200, 200, 200);
+      background: linear-gradient(
+        to bottom,
+        rgb(200, 200, 200) 0%,
+        rgb(200, 200, 200) 92%,
+        rgba(200, 200, 200, 0) 100%
+      );
+      height: 100%;
+      position: absolute;
+      transform-origin: 0 0;
+    }
+    @include mq(min, xl) {
+      margin-left: 3rem;
+    }
+    dt {
+      position: relative;
+      font-size: 1.2rem;
+      color: rgba($primary, 0.7);
+      padding-left: 3rem;
+      font-style: oblique;
+      font-weight: 500;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 9px;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: none repeat scroll 0% 0% $primary;
+        border: 2px solid #fff;
+      }
+    }
+    dd {
+      padding-left: 3rem;
+    }
+  }
+  #message {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  .messageSwiper {
+    .swiper-slide {
+      opacity: 0.3;
+      &.swiper-slide-active {
+        opacity: 1;
+      }
+    }
+    .content-wrap {
+      background-color: rgba($primary, 0.05);
+      padding: 3rem 2rem;
+      border-radius: 20px;
+    }
+    figure {
+      margin: 0 auto;
+      overflow: visible;
+      text-align: center;
+      img {
+        max-width: 100px;
+      }
+      figcaption {
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: $black;
+        @include mq(min, md) {
+          font-size: 1.4rem;
+        }
+      }
+    }
+    blockquote {
+      margin: 0 auto;
+      p {
+        position: relative;
+        padding-top: 3rem;
+        font-size: 1rem;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 1.3rem;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 30px;
+          height: 5px;
+          border-radius: 10px;
+          background-color: $primary;
+        }
+        @include mq(min, md) {
+          font-size: 1.2rem;
+        }
+      }
+      cite {
+        text-align: end;
+      }
+    }
+  }
+
+  .news-thumb {
+    position: relative;
+    .news-cat {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 1rem;
+      background: $dark;
+      color: $white;
+      z-index: 1;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  .news-date {
+    font-family: $en;
+    color: rgba($body_color, 0.5);
+  }
+  .news-title {
+    font-size: 1rem;
+    line-height: 1.3;
+    @include mq(min, md) {
+      font-size: 1.3rem;
+    }
+  }
+  .newsSwiper {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    .swiper-slide {
+      a {
+        text-decoration: none;
+        font-weight: 500;
+        color: $body_color;
+      }
+    }
+  }
+
+  // swiper pagination custom
+  .swiper-pagination-custom {
+    transform: translateX(-50%);
+    left: 50% !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    .swiper-pagination-bullet {
+      margin: 0 5px;
+      width: 8px;
+      height: 8px;
+      display: block;
+      border-radius: 10px;
+      background: #062744;
+      opacity: 0.2;
+      transition: all 0.3s;
+      &-active {
+        opacity: 1;
+        background: $primary;
+        width: 30px;
+      }
+    }
+  }
+  // 3d flipbook custom
+  .fb3d-thumbnail-lightbox-mode .book-heading h3,
+  .fb3d-thumbnail-mode .book-heading h3 {
+    bottom: 0;
+  }
+}
