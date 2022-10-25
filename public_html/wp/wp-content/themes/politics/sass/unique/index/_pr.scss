@@ -46,10 +46,11 @@
     }
     .catch-img {
       margin: 0;
-      padding-right: 5rem;
-      max-width: 50vh;
+      padding-right: 1rem;
+      max-width: 45vh;
       @include mq(min, xl) {
         max-width: 72vh;
+        padding-right: 5rem;
       }
       .pr-img {
         width: 100%;
