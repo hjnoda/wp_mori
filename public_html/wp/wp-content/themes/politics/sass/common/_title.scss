@@ -1,17 +1,16 @@
 @use "../setting/setting" as *;
 
 .page-title {
-  height: 18rem;
+  height: 13rem;
+  padding-top: 8rem;
   display: flex;
   align-items: center;
   @include mq(min, md) {
-    height: 25rem;
+    height: 16rem;
   }
   .breadcrumb {
-    display: none;
-    @include mq(min, md) {
-      display: block;
-    }
+    display: block;
+    text-align: end;
     font-size: 14px;
     margin: 0;
     color: rgba($black, 0.5);
@@ -23,9 +22,6 @@
   .title-data {
     width: 100%;
     display: block;
-    @include mq(min, md) {
-      text-align: right;
-    }
     h2 {
       margin-top: 20px;
       font-size: 1.4rem;
@@ -38,7 +34,7 @@
         font-size: 3.6rem;
         font-family: $en;
         text-transform: uppercase;
-        color: $black;
+        color: $primary;
         @include mq(min, md) {
           font-size: 4.3rem;
         }
