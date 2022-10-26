@@ -1,4 +1,4 @@
-<div class="footer">
+<footer class="footer">
   <div class="container d-none">
     <div class="row row-eq-height gy-4">
       <div class="col-xl-3 align-items-center align-items-xl-start">
@@ -32,4 +32,4 @@
     </div>
     <div class="copyright">©︎ 2022 清水たかひろ</div>
   </div>
-</div>
+</footer>

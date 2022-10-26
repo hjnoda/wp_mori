@@ -1,3 +1,4 @@
+</main>
 <?php require('block/common/footer.php'); ?>
 <?php wp_footer(); ?>
 <script src="<?= uri(); ?>/assets/bundle/bootstrap5/bootstrap.bundle.min.js"></script>

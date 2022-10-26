@@ -7,8 +7,6 @@
   @include mq(min, md) {
     height: 25rem;
   }
-}
-.page-title {
   .breadcrumb {
     display: none;
     @include mq(min, md) {
