@@ -32,6 +32,10 @@
           <td><input type="text" name="addr" value="<?= $val->addr ?>" size="100" /></td>
         </tr>
         <tr>
+          <th width="20%">所在地(その他)</th>
+          <td><input type="text" name="addr2" value="<?= $val->addr2 ?>" size="100" /></td>
+        </tr>
+        <tr>
           <th width="20%">Tel</th>
           <td><input type="text" name="tel" value="<?= $val->tel ?>" size="100" /></td>
         </tr>

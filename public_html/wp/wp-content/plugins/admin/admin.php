@@ -94,6 +94,7 @@ class Admin
         update_option('admin_name',     $_POST['name']);
         update_option('admin_pref',     $_POST['pref']);
         update_option('admin_addr',     $_POST['addr']);
+        update_option('admin_addr2',    $_POST['addr2']);
         update_option('admin_tel',      $_POST['tel']);
         update_option('admin_fax',      $_POST['fax']);
         update_option('admin_mail',     $_POST['mail']);
@@ -105,6 +106,7 @@ class Admin
       'name'       => get_option('admin_name'),
       'pref'       => get_option('admin_pref'),
       'addr'       => get_option('admin_addr'),
+      'addr2'      => get_option('admin_addr2'),
       'tel'        => get_option('admin_tel'),
       'fax'        => get_option('admin_fax'),
       'mail'       => get_option('admin_mail'),
