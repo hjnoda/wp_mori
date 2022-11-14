@@ -210,7 +210,7 @@
     <h3 title="newsletter">ニュースレター</h3>
     <div class="row row-cols-1 row-cols-lg-2 row-eq-height">
       <div class="col justify-content-center align-items-center">
-        <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" id="13" title="true" thumbnail="//localhost:8081/wp/wp-content/themes/politics/assets/img/newsletter-thumb.jpg"][/3d-flip-book]'); ?>
+        <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" id="13" title="true" thumbnail="/wp/wp-content/themes/politics/assets/img/newsletter-thumb.jpg"][/3d-flip-book]'); ?>
       </div>
       <div class="col">
         <p class="mt-4 mt-lg-0">
