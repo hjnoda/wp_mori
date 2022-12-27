@@ -43,7 +43,7 @@ function the_cLableSlug(){
   }
 }
 //サムネイル画像取得
-function get_eye_image($id,$type = 'thumbnail'){
+function get_eye_image($id,$type = 'large'){
   $media_id = get_post_thumbnail_id($id);
   if ($media_id) {
     $media = wp_get_attachment_image_src($media_id, $type);

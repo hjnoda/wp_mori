@@ -44,7 +44,7 @@ new Swiper(".newsSwiper", {
   autoHeight: false,
   centeredSlides: true,
   autoplay: true,
-  slidesPerView: 2,
+  slidesPerView: 1.3,
   spaceBetween: 20,
   pagination: {
     el: ".swiper-pagination-news",
