@@ -67,31 +67,32 @@
   <section id="greeting">
     <h3 title="greeting">ご挨拶</h3>
     <div class="layer-l">
-    <div id="carouselGreeting" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <figure><img src="<?= img('greeting1.jpg'); ?>" class="d-block w-100" alt=""></figure>
-    </div>
-    <div class="carousel-item">
-    <figure><img src="<?= img('greeting2.jpg'); ?>" class="d-block w-100" alt=""></figure>
-    </div>
-    <div class="carousel-item">
-    <figure><img src="<?= img('greeting3.jpg'); ?>" class="d-block w-100" alt=""></figure>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselGreeting" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselGreeting" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    
+      <div id="carouselGreeting" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <figure><img src="<?= img('greeting1.jpg'); ?>" class="d-block w-100" alt=""></figure>
+          </div>
+          <div class="carousel-item">
+            <figure><img src="<?= img('greeting2.jpg'); ?>" class="d-block w-100" alt=""></figure>
+          </div>
+          <div class="carousel-item">
+            <figure><img src="<?= img('greeting3.jpg'); ?>" class="d-block w-100" alt=""></figure>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselGreeting" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselGreeting" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
       <div class="layer-text">
-        <div class="text-start">
-        <h4>手稲から<br>都市と農村をむすぶ<br>生産者と消費者の<span class="text-primary">かけ橋</span>に</h4>
+        <div>
+          <h4 class="text-center text-md-start">手稲から<br>都市と農村をむすぶ<br>生産者と消費者の<br class="d-block d-md-none"><span
+              class="text-primary">かけ橋</span>に</h4>
           <p class="mt-4">
             手稲区民のみなさん、私、清水たかひろは、みなさんの声を都政に届けていくため、手稲区が直面している様々な課題にしっかりと向き合います。<br>
             また、農業経験者として都市と農村をむすび、生産者と消費者の「かけ橋」となるため、<span
@@ -113,7 +114,8 @@
   </section>
 
   <section id="idea">
-    <h3 title="idea"><span class="fs-4 text-dark">清水たかひろがめざす<br>元気なまち<span class="text-primary">「ていね」</span>の未来</span></h3>
+    <h3 title="idea"><span class="fs-4 text-dark">清水たかひろがめざす<br>元気なまち<span class="text-primary">「ていね」</span>の未来</span>
+    </h3>
     <ul class="idea-list">
       <li class="row">
         <div class="col-xl-4 order-xl-last">
@@ -236,9 +238,9 @@
             </figure>
             <blockquote>
               <p>誰に対しても変わらず丁寧に対応している清水たかひろさん
-一度決めたことは達成するまで粘り強く行動する姿勢に、いつも感服させられます。
-一緒に手稲区民の皆様ために働けることを切望しています。
-頑張れ！！　清水たかひろ</p>
+                一度決めたことは達成するまで粘り強く行動する姿勢に、いつも感服させられます。
+                一緒に手稲区民の皆様ために働けることを切望しています。
+                頑張れ！！　清水たかひろ</p>
             </blockquote>
           </div>
         </div>
@@ -250,8 +252,8 @@
             </figure>
             <blockquote>
               <p>自分の苦手分野でも周囲の協力を得て、あきらめず粘り強くお仕事を遂行していく姿勢が強く印象にあります。
-また、徳永エリ参議委員秘書時代は、持ち前の体力と行動力も活かし精力的に活動していました。
-地域と道政のかけ橋として共に考えよう！！</p>
+                また、徳永エリ参議委員秘書時代は、持ち前の体力と行動力も活かし精力的に活動していました。
+                地域と道政のかけ橋として共に考えよう！！</p>
             </blockquote>
           </div>
         </div>
@@ -264,7 +266,7 @@
     <h3 title="newsletter">広報誌</h3>
     <p class="text-md-center">清水たかひろは「須田道議の想いをしつかりと受け継ぎながら、<br>これまでの経験を活かして手稲区民のみなさんと 緒に新しい政治をつくっていきたい」と抱負を述べていきます。</p>
     <div class="d-flex justify-content-center mt-5">
-    <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" cols="3" tax="3" title="true"][/3d-flip-book]'); ?>
+      <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" cols="3" tax="3" title="true"][/3d-flip-book]'); ?>
     </div>
 
   </section>

@@ -4,11 +4,6 @@ $slug = $post->post_name;
 ?>
 <div class="page-title">
   <div class="container">
-    <div class="pan breadcrumb" typeof="BreadcrumbList">
-      <?php if (function_exists('bcn_display')) {
-        bcn_display();
-      } ?>
-    </div>
     <div class="title-data">
       <?php if (is_page()) { ?>
       <h2><span><?= strtoupper($slug); ?></span><?= the_title(); ?></h2>

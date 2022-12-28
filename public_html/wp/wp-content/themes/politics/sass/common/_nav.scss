@@ -28,10 +28,12 @@
   &.is-scroll {
     background-color: $primary;
     height: 70px;
+    h1 {
+      display: inline-block;
+    }
   }
 }
 .navbar-brand {
-  text-align-last: justify;
   display: inline-block;
   max-width: 300px;
   line-height: 1.2;
@@ -46,6 +48,10 @@
     margin: inherit;
     padding: inherit;
     font-size: inherit;
+    display: none;
+    @include mq(min, md) {
+      display: inline;
+    }
   }
 }
 .navbar-nav {

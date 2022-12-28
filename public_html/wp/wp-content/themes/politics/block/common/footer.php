@@ -1,6 +1,6 @@
 <footer class="footer">
   <div class="container text-center">
-    <a class="navbar-brand" href="#">
+    <a href="#" class="text-decoration-none">
       <span class="navbar-brand-sub"><?= conf('name') ?></span>
       <h1><?= conf('sitename') ?></h1>
     </a>
