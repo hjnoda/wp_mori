@@ -35,7 +35,7 @@ define( 'DB_USER', 'wp' );
 define( 'DB_PASSWORD', 'pass' );
 
 /** データベースのホスト名 */
-define( 'DB_HOST', 'politics_db' );
+define( 'DB_HOST', 'mori_db' );
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -96,4 +96,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-
