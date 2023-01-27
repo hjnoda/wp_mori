@@ -41,7 +41,7 @@
     overflow: hidden;
     @include mq(min, xl) {
       &.vertical {
-        aspect-ratio: 3 / 4.6;
+        aspect-ratio: 3 / 5;
       }
     }
   }

@@ -13,7 +13,13 @@
   }
   .prSwiper {
     .swiper-wrapper {
-      height: 100vh;
+      height: 90vh;
+      @include mq(min, md) {
+        height: 60vh;
+      }
+      @include mq(min, lg) {
+        height: 100vh;
+      }
       position: relative;
     }
     .swiper-slide-active .slide-img,
@@ -43,10 +49,10 @@
       .catch-img {
         margin: 0;
         padding-right: 1rem;
-        max-width: 45vh;
+        max-width: 53vh;
         @include mq(min, xl) {
-          max-width: 72vh;
-          padding-right: 5rem;
+          max-width: 90vh;
+          padding-right: 0;
         }
         .pr-img {
           width: 100%;
@@ -300,6 +306,7 @@
     }
     dd {
       padding-left: 3rem;
+      margin-bottom: 1rem;
     }
   }
 }

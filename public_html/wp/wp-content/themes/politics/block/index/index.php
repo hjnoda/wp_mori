@@ -2,21 +2,24 @@
   <div class="swiper prSwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr1.jpg) no-repeat center / cover;">
+        <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr1.webp) no-repeat center / cover;"
+          loading="lazy">
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr2.jpg) no-repeat center / cover;">
+        <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr2.webp) no-repeat center / cover;"
+          loading="lazy">
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr3.jpg) no-repeat center / cover;">
+        <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr3.webp) no-repeat center / cover;"
+          loading="lazy">
         </div>
       </div>
       <div class="pr-catch">
         <div class="container">
           <figure class="catch-img figure-clear">
-            <img src="<?= img('pr.png'); ?>" class="pr-img" alt="">
+            <img src="<?= img('pr.webp'); ?>" class="pr-img" alt="清水たかひろ" loading="lazy">
           </figure>
           <div class="catch-text">
             <h2><ruby>清水<rt class="fs-4">しみず</rt></ruby>たかひろ</h2>
@@ -35,16 +38,17 @@
     <div class="swiper newsSwiper">
       <div class="swiper-wrapper">
         <?php
-        $obj = get_postByTax('post', 4, 'category', 'news');
-        $cat = get_cat($post->ID);
+        $obj = get_postsByType('post', 5);
         foreach ($obj as $post) {
+        $cat = get_cat($post->ID);
       ?>
         <div class="swiper-slide">
           <a href="<?php the_permalink($post); ?>" class="news-link">
             <div class="news-thumb">
               <div class="news-cat"><?= $cat->name; ?></div>
               <figure>
-                <img src="<?= get_eye_image($post->ID); ?>" class="img-fluid" alt="<?= $post->post_title; ?>">
+                <img src="<?= get_eye_image($post->ID); ?>" class="img-fluid" alt="<?= $post->post_title; ?>"
+                  loading="lazy">
               </figure>
             </div>
             <div class="news-content">
@@ -60,7 +64,7 @@
       <div class="swiper-pagination swiper-pagination-custom swiper-pagination-news"></div>
     </div>
     <div class="btn-center">
-      <a href="/c/news" class="btn btn-more btn-primary mx-auto">全件を見る</a>
+      <a href="/newslist.html" class="btn btn-more btn-primary mx-auto">全件を見る</a>
     </div>
   </section>
 
@@ -70,13 +74,16 @@
       <div id="carouselGreeting" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <figure><img src="<?= img('greeting1.jpg'); ?>" class="d-block w-100" alt=""></figure>
+            <figure><img src="<?= img('greeting1.webp'); ?>" class="d-block w-100" alt="清水たかひろからのご挨拶" loading="lazy">
+            </figure>
           </div>
           <div class="carousel-item">
-            <figure><img src="<?= img('greeting2.jpg'); ?>" class="d-block w-100" alt=""></figure>
+            <figure><img src="<?= img('greeting2.webp'); ?>" class="d-block w-100" alt="清水たかひろからのご挨拶" loading="lazy">
+            </figure>
           </div>
           <div class="carousel-item">
-            <figure><img src="<?= img('greeting3.jpg'); ?>" class="d-block w-100" alt=""></figure>
+            <figure><img src="<?= img('greeting3.webp'); ?>" class="d-block w-100" alt="清水たかひろからのご挨拶" loading="lazy">
+            </figure>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselGreeting" data-bs-slide="prev">
@@ -94,21 +101,13 @@
           <h4 class="text-center text-md-start">手稲から<br>都市と農村をむすぶ<br>生産者と消費者の<br class="d-block d-md-none"><span
               class="text-primary">かけ橋</span>に</h4>
           <p class="mt-4">
-            手稲区民のみなさん、私、清水たかひろは、みなさんの声を都政に届けていくため、手稲区が直面している様々な課題にしっかりと向き合います。<br>
+            手稲区民のみなさん、私、清水たかひろは、みなさんの声を道政に届けていくため、手稲区が直面している様々な課題にしっかりと向き合います。<br>
             また、農業経験者として都市と農村をむすび、生産者と消費者の「かけ橋」となるため、<span
               class="text-primary fs-5">地域をつなぐ現場主義</span>を信条にしています。手稲区が持っている素晴らしい財産、<span
               class="text-primary fs-5">魅力を存分に活かし、活力あふれる元気なまち「ていね」</span>の未来実現に向けて、これまでの経験と持ってる力の全てを注ぎ、全力を尽くす決意です。<span
               class="text-primary fs-5">一緒に未来を作りましょう！</span>
           </p>
         </div>
-      </div>
-    </div>
-    <div class="layer-r d-none">
-      <figure><img src="<?= img('greeting.jpg'); ?>" alt=""></figure>
-      <div class="layer-text">
-        <p>
-          みなさんの声を道政に届けていくため、<br>手稲区が直面している様々な課題にしっかりと向き合います。<br>手稲区が持っている素晴らしい財産、魅力を存分に活かし、<br>活力あふれる元気なまち「ていね」の未来実現に向けて、<br>自らのこれまでの経験と持てる力の全てを注ぎ、全力を尽くす決意です。<br>一緒に未来を創りましょう！
-        </p>
       </div>
     </div>
   </section>
@@ -119,7 +118,8 @@
     <ul class="idea-list">
       <li class="row">
         <div class="col-xl-4 order-xl-last">
-          <figure class="ms-xl-5"><img src="<?= img('idea1.jpg'); ?>" alt=""></figure>
+          <figure class="ms-xl-5"><img src="<?= img('idea1.webp'); ?>" alt="子育て世代が安心して暮らせる元気なまち「ていね」" loading="lazy">
+          </figure>
         </div>
         <div class="col-xl-8">
           <h4 title="01">子育て世代が安心して暮らせる元気なまち「ていね」</h4>
@@ -132,7 +132,8 @@
       </li>
       <li class="row">
         <div class="col-xl-4">
-          <figure class="me-xl-5"><img src="<?= img('idea2.jpg'); ?>" alt=""></figure>
+          <figure class="me-xl-5"><img src="<?= img('idea2.webp'); ?>" alt="福祉・医療政策がすべての年齢層に対応する元気なまち「ていね」"
+              loading="lazy"></figure>
         </div>
         <div class="col-xl-8">
           <h4 title="02">福祉・医療政策がすべての年齢層に対応する<br>元気なまち「ていね」</h4>
@@ -145,7 +146,8 @@
       </li>
       <li class="row row-eq-height">
         <div class="col-xl-4 order-xl-last">
-          <figure class="ms-xl-5"><img src="<?= img('idea3.jpg'); ?>" alt=""></figure>
+          <figure class="ms-xl-5"><img src="<?= img('idea3.webp'); ?>" alt="女性も男性もすべての年齢層に働きがいのある元気なまち「ていね」"
+              loading="lazy"></figure>
         </div>
         <div class="col-xl-8">
           <h4 title="03">女性も男性もすべての年齢層に働きがいのある<br>元気なまち「ていね」</h4>
@@ -158,7 +160,8 @@
       </li>
       <li class="row">
         <div class="col-xl-4">
-          <figure class="me-xl-5"><img src="<?= img('idea4.jpg'); ?>" alt=""></figure>
+          <figure class="me-xl-5"><img src="<?= img('idea4.webp'); ?>" alt="自然の豊かさ、都市と農村をむすぶ活力あふれる元気なまち「ていね」"
+              loading="lazy"></figure>
         </div>
         <div class="col-xl-8">
           <h4 title="04">自然の豊かさ、都市と農村をむすぶ活力あふれる<br>元気なまち「ていね」</h4>
@@ -177,8 +180,8 @@
     <div class="row">
       <div class="col-xl-4">
         <figure class="vertical">
-          <img src="<?= img('profile.png'); ?>" class="img-fluid d-none d-xl-block" alt="清水たかひろ">
-          <img src="<?= img('profile_sp.jpg'); ?>" class="img-fluid d-block d-xl-none" alt="清水たかひろ">
+          <img src="<?= img('profile.webp'); ?>" class="img-fluid d-none d-xl-block" alt="清水たかひろ" loading="lazy">
+          <img src="<?= img('profile_sp.webp'); ?>" class="img-fluid d-block d-xl-none" alt="清水たかひろ" loading="lazy">
         </figure>
       </div>
       <div class="col-xl-8">
@@ -210,7 +213,7 @@
         <div class="swiper-slide">
           <div class="content-wrap">
             <figure class="figure-clear">
-              <img src="<?= img('tokunagaeri.jpg'); ?>" class="rounded-circle" width="100" height="100" alt="">
+              <img src="<?= img('tokunagaeri.webp'); ?>" class="rounded-circle" width="100" height="100" alt="徳永エリ">
               <figcaption>徳永エリ / 参議院議員</figcaption>
             </figure>
             <blockquote>
@@ -222,7 +225,7 @@
         <div class="swiper-slide">
           <div class="content-wrap">
             <figure class="figure-clear">
-              <img src="<?= img('ootsukikureba.jpg'); ?>" class="rounded-circle" width="100" height="100" alt="">
+              <img src="<?= img('ootsukikureba.webp'); ?>" class="rounded-circle" width="100" height="100" alt="おおつき紅葉">
               <figcaption>おおつき紅葉 / 参議院議員</figcaption>
             </figure>
             <blockquote>
@@ -233,7 +236,7 @@
         <div class="swiper-slide">
           <div class="content-wrap">
             <figure class="figure-clear">
-              <img src="<?= img('onomasami.jpg'); ?>" class="rounded-circle" width="100" height="100" alt="">
+              <img src="<?= img('onomasami.webp'); ?>" class="rounded-circle" width="100" height="100" alt="おの正美">
               <figcaption>おの正美 / 札幌市議会議員</figcaption>
             </figure>
             <blockquote>
@@ -247,7 +250,7 @@
         <div class="swiper-slide">
           <div class="content-wrap">
             <figure class="figure-clear">
-              <img src="<?= img('fukushikatsu.jpg'); ?>" class="rounded-circle" width="100" height="100" alt="">
+              <img src="<?= img('fukushikatsu.webp'); ?>" class="rounded-circle" width="100" height="100" alt="福士 勝">
               <figcaption>福士 勝 / 前・札幌市議会議員</figcaption>
             </figure>
             <blockquote>

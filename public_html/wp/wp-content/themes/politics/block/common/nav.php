@@ -29,7 +29,7 @@
               <li><a class="nav-link" href="<?= home_url(); ?>#idea">めざすこと</a></li>
               <li><a class="nav-link" href="<?= home_url(); ?>#profile">プロフィール</a></li>
               <li><a class="nav-link" href="<?= home_url(); ?>#message">応援メッセージ</a></li>
-              <li><a class="nav-link" href="c/news">お知らせ</a></li>
+              <li><a class="nav-link" href="/newslist.html">お知らせ</a></li>
               <li><a class="nav-link" href="/contact.html">お問い合わせ</a></li>
             </ul>
             <ul class="navbar-nav d-flex flex-row align-items-center ms-2 ms-xl-0 mt-3 mt-xl-0">
