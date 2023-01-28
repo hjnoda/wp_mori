@@ -12,13 +12,13 @@
 - COLOR primary
 ------------------------------------*/
 
-$primary_t1: #009250;
-$primary_t2: #007942;
+$primary_t1: #3dae94;
+$primary_t2: #167d65;
 $primary_t3: #31ffa1;
 $primary_t4: #4affad;
 $primary_t5: #00170c;
-$primary_t6: #004f2b;
-$primary_t7: #006e3c;
+$primary_t6: #053d96;
+$primary_t7: #167d65;
 $primary_t8: #000000;
 $primary_t9: #5fffb6;
 
@@ -74,7 +74,7 @@ button.bg-primary:focus {
 .btn-primary:hover {
   color: $primary_text_color_dark_bright;
   background-color: $primary_t7;
-  border-color: $primary_t2;
+  border-color: $primary_t7;
 }
 
 .btn-primary:focus,
@@ -107,6 +107,7 @@ button.bg-primary:focus {
   color: $primary_t1;
   background-color: transparent;
   border-color: $primary_t1;
+  border-width: 2px;
 }
 
 .btn-outline-primary:hover {
@@ -175,7 +176,9 @@ button.bg-primary:focus {
 .text-primary {
   color: $primary_t1 !important;
 }
-
+.text-dark {
+  color: $primary_t2 !important;
+}
 a.text-primary:hover,
 a.text-primary:focus {
   color: $primary_t2 !important;

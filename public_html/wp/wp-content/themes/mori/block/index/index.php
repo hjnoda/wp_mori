@@ -2,7 +2,7 @@
   <div class="swiper prSwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr1.webp) no-repeat center / cover;"
+        <div class="slide-img" style="background:url(<?= uri(); ?>/assets/img/pr1.webp) no-repeat center bottom/ cover;"
           loading="lazy">
         </div>
       </div>
@@ -19,11 +19,12 @@
       <div class="pr-catch">
         <div class="container">
           <figure class="catch-img figure-clear">
-            <img src="<?= img('pr.webp'); ?>" class="pr-img" alt="清水たかひろ" loading="lazy">
+            <img src="<?= img('pr.webp'); ?>" class="pr-img" alt="森きよのり" loading="lazy">
           </figure>
-          <div class="catch-text">
-            <h2><ruby>清水<rt class="fs-4">しみず</rt></ruby>たかひろ</h2>
-            <p>地域をつなぐ現場主義<br>手稲区からチャレンジ！</p>
+          <div class="catch-text text-center">
+            <img src="<?= img('rikken.svg'); ?>" width="150" class="d-none d-md-block mx-auto" alt="立憲民主党ロゴ">
+            <h2><ruby>森<rt class="fs-4">もり</rt></ruby><span class="ps-4">きよのり</span></h2>
+            <p>あなたの<br>「声」をつなげて創る<br>まちづくり</p>
           </div>
         </div>
       </div>
@@ -71,18 +72,18 @@
   <section id="greeting">
     <h3 title="greeting">ご挨拶</h3>
     <div class="layer-l">
-      <div id="carouselGreeting" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div id="carouselGreeting" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <figure><img src="<?= img('greeting1.webp'); ?>" class="d-block w-100" alt="清水たかひろからのご挨拶" loading="lazy">
+            <figure><img src="<?= img('greeting1.webp'); ?>" class="d-block w-100" alt="森きよのりからのご挨拶" loading="lazy">
             </figure>
           </div>
           <div class="carousel-item">
-            <figure><img src="<?= img('greeting2.webp'); ?>" class="d-block w-100" alt="清水たかひろからのご挨拶" loading="lazy">
+            <figure><img src="<?= img('greeting2.webp'); ?>" class="d-block w-100" alt="森きよのりからのご挨拶" loading="lazy">
             </figure>
           </div>
           <div class="carousel-item">
-            <figure><img src="<?= img('greeting3.webp'); ?>" class="d-block w-100" alt="清水たかひろからのご挨拶" loading="lazy">
+            <figure><img src="<?= img('greeting3.webp'); ?>" class="d-block w-100" alt="森きよのりからのご挨拶" loading="lazy">
             </figure>
           </div>
         </div>
@@ -98,14 +99,24 @@
 
       <div class="layer-text">
         <div>
-          <h4 class="text-center text-md-start">手稲から<br>都市と農村をむすぶ<br>生産者と消費者の<br class="d-block d-md-none"><span
-              class="text-primary">かけ橋</span>に</h4>
+          <h4 class="text-center">あなたの<br class="d-block d-md-none"><span class="text-dark">「声」をつなげて</span>創る<br>まちづくり
+          </h4>
           <p class="mt-4">
-            手稲区民のみなさん、私、清水たかひろは、みなさんの声を道政に届けていくため、手稲区が直面している様々な課題にしっかりと向き合います。<br>
-            また、農業経験者として都市と農村をむすび、生産者と消費者の「かけ橋」となるため、<span
-              class="text-primary fs-5">地域をつなぐ現場主義</span>を信条にしています。手稲区が持っている素晴らしい財産、<span
-              class="text-primary fs-5">魅力を存分に活かし、活力あふれる元気なまち「ていね」</span>の未来実現に向けて、これまでの経験と持ってる力の全てを注ぎ、全力を尽くす決意です。<span
-              class="text-primary fs-5">一緒に未来を作りましょう！</span>
+            ラジオは、パーソナリティーとリスナーが<span class="text-dark fs-5">コミュニケーションを瞬時に藁くことができる双方向で声を上げるメディア</span>です。
+            このユニークなメディアに私は愛情をもっています。ラジオは、リスナーからの1通のメールで化学変化が起こります。
+          </p>
+          <p>
+            リスナーから寄せられる声は、今日1日がんばりたいので応援してほしい、恋愛相談、法律上のトラブル対処法など千差万別です。
+            行政や政治に対して疑問を持っている声や、将来に対する不安を相談するものも数多くありました。
+            わたしはこうした思いを代弁するだけで、自分にももっとできることがあるのではないだろうかと自問し、悩み続けていました。
+          </p>
+          <p>
+            導き出した答えが、<span class="text-dark fs-5">リスナーが感じている声を札幌市政に直撞眉けたい</span>というものでした。
+            ラジオを通して25年間、多くのリスナを重ね、<span class="text-dark fs-5">実生活では大書な声を上げることができない人に寄り添い、声なき声に耳を傾けることの大切さ</span>を学びました。
+          </p>
+          <p>
+            声なき声を言葉にすることを鍛えてき た経験を生かし、<span class="text-dark fs-5">行政、議会、市民の双方向による街づくりを進めていきたい。</span>
+            「森きよのり」と一緒に新しい札幌づく りに挑戦しませんか。
           </p>
         </div>
       </div>
@@ -113,63 +124,53 @@
   </section>
 
   <section id="idea">
-    <h3 title="idea"><span class="fs-4 text-dark">清水たかひろがめざす<br>元気なまち<span class="text-primary">「ていね」</span>の未来</span>
+    <h3 title="idea"><span class="fs-4">一緒に<span class="text-dark">新しい札幌づくり</span>に挑戦しましょう！</span>
     </h3>
     <ul class="idea-list">
       <li class="row">
         <div class="col-xl-4 order-xl-last">
-          <figure class="ms-xl-5"><img src="<?= img('idea1.webp'); ?>" alt="子育て世代が安心して暮らせる元気なまち「ていね」" loading="lazy">
+          <figure class="ms-xl-5"><img src="<?= img('idea1.webp'); ?>" class="img-fluid" alt="いつまでも健康に" loading="lazy">
           </figure>
         </div>
         <div class="col-xl-8">
-          <h4 title="01">子育て世代が安心して暮らせる元気なまち「ていね」</h4>
-          <ul class="idea-ul">
-            <li>子ども医療費助成引き上げ、学校給食費の無償化。</li>
-            <li>保育士の待遇改善や増員による保育環境の充実改善。</li>
-            <li>産前産後サポートや保健師、児童福祉司の増員などの支援推進。</li>
-          </ul>
+          <h4 title="01">いつまでも健康に</h4>
+          <p>道民の健康向上を目的とした「北海道特定健診受診アンバサダー」を拝命しています。特定健診は生 活習慣病等の早期発見に役立ち、健康寿命を延ば す対策として有益です。多くの市民が安心して受診 できる取組みを進めます。
+          </p>
         </div>
       </li>
       <li class="row">
         <div class="col-xl-4">
-          <figure class="me-xl-5"><img src="<?= img('idea2.webp'); ?>" alt="福祉・医療政策がすべての年齢層に対応する元気なまち「ていね」"
-              loading="lazy"></figure>
+          <figure class="me-xl-5"><img src="<?= img('idea2.webp'); ?>" class="img-fluid" alt="誰でも歩ける街を" loading="lazy">
+          </figure>
         </div>
         <div class="col-xl-8">
-          <h4 title="02">福祉・医療政策がすべての年齢層に対応する<br>元気なまち「ていね」</h4>
-          <ul class="idea-ul">
-            <li>区民の健康をサポートする医療提供体制と介護体制の支援強化。</li>
-            <li>住み慣れた手稲区でこの先も暮らしていくための日常生活の支援強化。<br>（除排雪、買物、交通手段支援など）</li>
-            <li>障がい者支援の充実と障がい者雇用の促進。</li>
-          </ul>
+          <h4 title="02">誰でも歩ける街を</h4>
+          <p>健康づくりには定期的な運動が効果的ですが、最も手軽なものがウォーキングです。札幌は魅力溢れ歩きたくなる景観も多くありますが、悪天候や冬期間でも屋根がある歩行空間を整備し、市民や観光客で溢れる街をつくります。
+          </p>
         </div>
       </li>
       <li class="row row-eq-height">
         <div class="col-xl-4 order-xl-last">
-          <figure class="ms-xl-5"><img src="<?= img('idea3.webp'); ?>" alt="女性も男性もすべての年齢層に働きがいのある元気なまち「ていね」"
-              loading="lazy"></figure>
+          <figure class="ms-xl-5"><img src="<?= img('idea3.webp'); ?>" class="img-fluid" alt="命と暮らしを守る" loading="lazy">
+          </figure>
         </div>
         <div class="col-xl-8">
-          <h4 title="03">女性も男性もすべての年齢層に働きがいのある<br>元気なまち「ていね」</h4>
-          <ul class="idea-ul">
-            <li>ワークライフバランスや男女共同参画に基づく働きやすい職場環境づくり。</li>
-            <li>地元産業の後継者対策やワーケーション事業など関係人口創出。</li>
-            <li>商店街や地元産業の活性化などを基軸とした起業支援。</li>
-          </ul>
+          <h4 title="03">命と暮らしを守る</h4>
+          <p>国内外で地震や大雨などの災害が頻繁に発生しています。災害時の避難スペースの確保や避難所の安定的な運営の必要性を「防災士」の立場から痛感しています。災害に強いまちと緊急支援体制の整備を積極的に進めていきます。
+          </p>
         </div>
       </li>
       <li class="row">
         <div class="col-xl-4">
-          <figure class="me-xl-5"><img src="<?= img('idea4.webp'); ?>" alt="自然の豊かさ、都市と農村をむすぶ活力あふれる元気なまち「ていね」"
+          <figure class="me-xl-5"><img src="<?= img('idea4.webp'); ?>" class="img-fluid" alt="安心できる子育て環境"
               loading="lazy"></figure>
         </div>
         <div class="col-xl-8">
-          <h4 title="04">自然の豊かさ、都市と農村をむすぶ活力あふれる<br>元気なまち「ていね」</h4>
-          <ul class="idea-ul">
-            <li>食の安全安心、地域をつなぐ食育・食農教育などの取り組み推進。</li>
-            <li>風水雪害・地震など、あらゆる災害に負けない防災・減災のまちづくり。</li>
-            <li>地域資源を活かし、社会経済が循環する産業政策の確立。</li>
-          </ul>
+          <h4 title="04">安心できる子育て環境</h4>
+          <p>これまで経験したことのない少子高齢化社会を迎えます。 出産や子育てを希望する全ての人が、安心して子どもを産 み育てることのできる環境の整備が必要です。給食費や子
+            ども医療費の無料化などを実現し、札幌の将来を担う子
+            どもたちが安心して育つ環境をつくります。
+          </p>
         </div>
       </li>
     </ul>
@@ -180,27 +181,21 @@
     <div class="row">
       <div class="col-xl-4">
         <figure class="vertical">
-          <img src="<?= img('profile.webp'); ?>" class="img-fluid d-none d-xl-block" alt="清水たかひろ" loading="lazy">
-          <img src="<?= img('profile_sp.webp'); ?>" class="img-fluid d-block d-xl-none" alt="清水たかひろ" loading="lazy">
+          <img src="<?= img('profile.webp'); ?>" class="img-fluid d-none d-xl-block" alt="森きよのり" loading="lazy">
+          <img src="<?= img('profile_sp.webp'); ?>" class="img-fluid d-block d-xl-none" alt="森きよのり" loading="lazy">
         </figure>
       </div>
       <div class="col-xl-8">
         <dl class="profile-list">
-          <dt>1975年 2月4日</dt>
-          <dd>昭和50年、斜里郡清里町で農業を営む両親の長男として 生まれる。<br>高校卒業までスピードスケートと陸上競技で心身を鍛える。</dd>
-          <dt>1995年 3月</dt>
-          <dd>北海道立農業大学校を卒業(畑作園芸経営学科)</dd>
-          <dt>1996年 3月</dt>
-          <dd>幅広い農業知識と国際的感覚を身につけるためドイツ連邦共和国（ヘッセン州ノイホフ）に1年間の農業留学。帰国後、本籍地で農業に従事。</dd>
-          <dt>2000年 12月</dt>
-          <dd>妻と結婚</dd>
-          <dt>2008年 9月</dt>
-          <dd>農業団体「北見地区農民連盟」の専従職員として勤務。</dd>
-          <dt>2018年 4月</dt>
-          <dd>参議院議員徳永エリ北海道事務所で公設秘書として勤務。 <br>4年半、北海道内各地で徳永議員に帯同し、地域の多岐にわたる課題 解決を中心に議員間の連携や選挙応援などに奔走することで政治活動を学ぶ。
-          </dd>
-          <dt>2022年 10月15日</dt>
-          <dd>立憲民主党ていね支部副代表として活動を開始。</dd>
+          <dt>1975年3月</dt>
+          <dd>札幌市生まれ。 父親の転勤に伴い、道内各地で幼少期を過ごしました。</dd>
+          <dt>1999年3月</dt>
+          <dd>札幌手稲高校卒業、北海学園大学経済学部経済学科入学。<br>大学在学中にラジオでパーソナリティを始める。</dd>
+          <dt>1999年4月〜</dt>
+          <dd>大学卒業後、ラジオを主戦場に、道内のテレビやイベントで司会やレポ
+            トを担当しました。<br>ラジオではAIR-G'で15年ほど平日夕方のプログラムを担当した後、<br>「朝の顔」ならぬ「朝の声」として平日の生番組「朝MORi」を5年間続けました。</dd>
+          <dt>2023年１月</dt>
+          <dd>札幌市議会議員選挙（厚別区）の候補予定者として立憲民主党の公認決定。</dd>
         </dl>
       </div>
     </div>
@@ -213,50 +208,33 @@
         <div class="swiper-slide">
           <div class="content-wrap">
             <figure class="figure-clear">
-              <img src="<?= img('tokunagaeri.webp'); ?>" class="rounded-circle" width="100" height="100" alt="徳永エリ">
-              <figcaption>徳永エリ / 参議院議員</figcaption>
+              <img src="<?= img('oen2.webp'); ?>" class="rounded-circle" width="100" height="100" alt="勝部賢志">
+              <figcaption>勝部賢志 / 参議院議員</figcaption>
             </figure>
             <blockquote>
-              <p>私の秘書として4年半、清水くんは、日本一広い、参議院北海道選挙区をともに走り回り、どんなにきついスケジュールでも不満一つ言わすに私を支えてくれました。真面目で努力家、何事にも熱心に取り組みま
-                す。これからは、その経験と行動力を手稲区の皆さんのために活かし、地域の課題解決につなげてくれるものと確信しています。国政と道政、連携して働ける日を楽しみにしていま!</p>
+              <p>森きよのりさんを応援しています！ </p>
             </blockquote>
           </div>
         </div>
         <div class="swiper-slide">
           <div class="content-wrap">
             <figure class="figure-clear">
-              <img src="<?= img('ootsukikureba.webp'); ?>" class="rounded-circle" width="100" height="100" alt="おおつき紅葉">
-              <figcaption>おおつき紅葉 / 参議院議員</figcaption>
+              <img src="<?= img('oen3.webp'); ?>" class="rounded-circle" width="100" height="100" alt="菅原和忠">
+              <figcaption>菅原和忠 / 道議会議員</figcaption>
             </figure>
             <blockquote>
-              <p>一つ一つの仕事に対して真正面から向き合い結果を出すまで取り組む努力ができる誠実なお人柄。４年半の参議院議員徳永エリさんの秘書経験を活かし、共に活力あふれる元気な社会を目指し、頑張りましょう。</p>
+              <p>森きよのりさんを応援しています！ </p>
             </blockquote>
           </div>
         </div>
         <div class="swiper-slide">
           <div class="content-wrap">
             <figure class="figure-clear">
-              <img src="<?= img('onomasami.webp'); ?>" class="rounded-circle" width="100" height="100" alt="おの正美">
-              <figcaption>おの正美 / 札幌市議会議員</figcaption>
+              <img src="<?= img('oen1.webp'); ?>" class="rounded-circle" width="100" height="100" alt="池田まき">
+              <figcaption>池田まき / 札幌市議立憲民主党第5区　総支部代表会議員</figcaption>
             </figure>
             <blockquote>
-              <p>誰に対しても変わらず丁寧に対応している清水たかひろさん
-                一度決めたことは達成するまで粘り強く行動する姿勢に、いつも感服させられます。
-                一緒に手稲区民の皆様ために働けることを切望しています。
-                頑張れ！！　清水たかひろ</p>
-            </blockquote>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="content-wrap">
-            <figure class="figure-clear">
-              <img src="<?= img('fukushikatsu.webp'); ?>" class="rounded-circle" width="100" height="100" alt="福士 勝">
-              <figcaption>福士 勝 / 前・札幌市議会議員</figcaption>
-            </figure>
-            <blockquote>
-              <p>自分の苦手分野でも周囲の協力を得て、あきらめず粘り強くお仕事を遂行していく姿勢が強く印象にあります。
-                また、徳永エリ参議委員秘書時代は、持ち前の体力と行動力も活かし精力的に活動していました。
-                地域と道政のかけ橋として共に考えよう！！</p>
+              <p>森きよのりさんを応援しています！</p>
             </blockquote>
           </div>
         </div>
@@ -267,7 +245,6 @@
 
   <section id="paper">
     <h3 title="newsletter">広報誌</h3>
-    <p class="text-md-center">清水たかひろは「須田道議の想いをしつかりと受け継ぎながら、<br>これまでの経験を活かして手稲区民のみなさんと 緒に新しい政治をつくっていきたい」と抱負を述べていきます。</p>
     <div class="d-flex justify-content-center mt-5">
       <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" cols="3" tax="3" title="true"][/3d-flip-book]'); ?>
     </div>
