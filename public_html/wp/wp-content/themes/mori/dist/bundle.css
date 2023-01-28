@@ -976,43 +976,43 @@ a.text-primary:focus {
   color: #3dae94;
 }
 .sidebar .tag-lists li:nth-child(1) {
-  background-color: rgba(21, 119, 214, 0.13);
+  background-color: rgba(177, 126, 227, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(2) {
-  background-color: rgba(212, 108, 133, 0.13);
+  background-color: rgba(191, 231, 82, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(3) {
-  background-color: rgba(129, 44, 102, 0.13);
+  background-color: rgba(84, 48, 48, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(4) {
-  background-color: rgba(116, 200, 137, 0.13);
+  background-color: rgba(231, 39, 134, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(5) {
-  background-color: rgba(161, 63, 76, 0.13);
+  background-color: rgba(71, 86, 136, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(6) {
-  background-color: rgba(182, 98, 141, 0.13);
+  background-color: rgba(60, 11, 198, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(7) {
-  background-color: rgba(93, 226, 216, 0.13);
+  background-color: rgba(166, 9, 40, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(8) {
-  background-color: rgba(126, 24, 151, 0.13);
+  background-color: rgba(30, 177, 107, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(9) {
-  background-color: rgba(59, 206, 73, 0.13);
+  background-color: rgba(143, 134, 152, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(10) {
-  background-color: rgba(28, 96, 220, 0.13);
+  background-color: rgba(221, 11, 103, 0.13);
   background-blend-mode: luminosity;
 }
 @media screen and (min-width: 768px) {
@@ -1096,7 +1096,7 @@ a.text-primary:focus {
     display: none;
   }
   .index figure:not(.figure-clear).vertical {
-    aspect-ratio: 3/4;
+    aspect-ratio: auto;
   }
   .pr .pr-catch .container {
     -webkit-box-orient: horizontal;

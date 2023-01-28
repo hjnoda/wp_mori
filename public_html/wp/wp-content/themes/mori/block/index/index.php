@@ -198,26 +198,26 @@
           <dd>札幌市議会議員選挙（厚別区）の候補予定者として立憲民主党の公認決定。</dd>
         </dl>
         <div class="ms-md-5 mt-4 border border-primary border-2 p-4">
-          <h3 class="text-start mb-3">ラジオ番組出演</h3>
+          <h3 class="text-start mb-2">ラジオ番組出演</h3>
           <ul class="mb-0">
             <li>朝MORi（月-金曜日6:00 - 9:00）</li>
             <li>ASAHI BEER presents NIKKA Bottoms up! CONNECTION（金曜日17:50 - 18:00）</li>
           </ul>
         </div>
         <div class="ms-md-5 border border-primary border-2 p-4 mt-3">
-          <h3 class="text-start mb-3">過去のラジを番組</h3>
+          <h3 class="text-start mb-2">過去のラジを番組</h3>
           <ul>
             <li>Dive into The Night</li>
             <li>scratch!</li>
             <li>MOXY</li>
             <li>AIR-G'×平原綾香 Christmas Fantasia in 三井アウトレットパーク 札幌北広島</li>
           </ul>
-          <h3 class="text-start mb-3">過去のテレビ番組出演</h3>
+          <h3 class="text-start mb-2">過去のテレビ番組出演</h3>
           <ul>
             <li>ともだっち〜ず（北海道文化放送)</li>
             <li>土曜えき☆スタUP（北海道文化放送)</li>
           </ul>
-          <h3 class="text-start mb-3">ナレーション</h3>
+          <h3 class="text-start mb-2">ナレーション</h3>
           <ul class="mb-0">
             <li>アサヒビール「ブラックニッカ」CM</li>
           </ul>
