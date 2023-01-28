@@ -41,14 +41,11 @@
     overflow: hidden;
     @include mq(min, xl) {
       &.vertical {
-        aspect-ratio: 3 / 5;
+        aspect-ratio: 3 / 4;
       }
     }
   }
-  // img {
-  //   width: 100%;
-  //   height: auto;
-  // }
+
   // swiper pagination custom (index 共通）
   .swiper-pagination-custom {
     transform: translateX(-50%);
