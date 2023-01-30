@@ -190,7 +190,7 @@
         <dl class="profile-list">
           <dt>1975年3月</dt>
           <dd>札幌市生まれ。 父親の転勤に伴い、道内各地で幼少期を過ごしました。</dd>
-          <dt>1999年3月</dt>
+          <dt>1994年3月〜</dt>
           <dd>札幌手稲高校卒業、北海学園大学経済学部経済学科入学。<br>大学在学中にラジオでパーソナリティを始める。</dd>
           <dt>1999年4月〜</dt>
           <dd>大学卒業後、ラジオを主戦場に、道内のテレビやイベントで司会やレポ
@@ -199,7 +199,7 @@
           <dd>札幌市議会議員選挙（厚別区）の候補予定者として立憲民主党の公認決定。</dd>
         </dl>
         <div class="ms-md-5 mt-4 border border-primary border-2 p-4">
-          <h3 class="text-start mb-2">ラジオ番組出演（2023年1月末まで）</h3>
+          <h3 class="text-start mb-2">最近のラジオ番組出演（2023年1月末まで）</h3>
           <ul class="mb-0">
             <li>朝MORi（月-金曜日6:00 - 9:00）</li>
             <li>夜MORi（月曜日19:00ー19:30）</li>
@@ -239,9 +239,9 @@
               <img src="<?= img('oen2.webp'); ?>" class="rounded-circle" width="100" height="100" alt="勝部賢志">
               <figcaption>勝部賢志 / 参議院議員</figcaption>
             </figure>
-            <blockquote>
+            <!--<blockquote>
               <p>国政と連携して、厚別区の皆様ために一緒に働ける日を楽しみにしています！！<br />森きよのりを全面バックアップします。</p>
-            </blockquote>
+            </blockquote>-->
           </div>
         </div>
         <div class="swiper-slide">
@@ -250,20 +250,20 @@
               <img src="<?= img('oen3.webp'); ?>" class="rounded-circle" width="100" height="100" alt="菅原和忠">
               <figcaption>菅原和忠 / 道議会議員</figcaption>
             </figure>
-            <blockquote>
+            <!--<blockquote>
               <p>誰に対しても気さくに丁寧に対応する森きよのりさん。共に道政と連携し、札幌市民の皆様のために働けることを切望しています。<br />頑張れ　森きよのり！！</p>
-            </blockquote>
+            </blockquote>-->
           </div>
         </div>
         <div class="swiper-slide">
           <div class="content-wrap">
             <figure class="figure-clear">
               <img src="<?= img('oen1.webp'); ?>" class="rounded-circle" width="100" height="100" alt="池田まき">
-              <figcaption>池田まき / 札幌市議立憲民主党第5区　総支部代表会議員</figcaption>
+              <figcaption>池田まき / 立憲民主党北海道第5区総支部代表</figcaption>
             </figure>
-            <blockquote>
+            <!--<blockquote>
               <p>ラジオパーソナリティーとしての25年間をフル活用して、共に活力あふれる元気な社会を目指し、頑張りましょう。</p>
-            </blockquote>
+            </blockquote>-->
           </div>
         </div>
       </div>
@@ -272,12 +272,8 @@
   </section>
 
   <section id="paper">
-
-  </section>
-
-  <section id="sns">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-6">
         <div class="sns-wrap">
           <h3 title="Twitter" class="text-center"><i class="bi bi-twitter pe-2"></i>ツイッター</h3>
           <a class="twitter-timeline" data-height="500" data-theme="light"
@@ -285,7 +281,7 @@
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <div class="sns-wrap">
           <h3 title="newsletter">広報誌</h3>
           <div class="d-flex justify-content-center mt-5">
@@ -293,12 +289,14 @@
           </div>
         </div>
       </div>
+      <!--
       <div class="col-12">
         <div class="sns-wrap">
           <h3 title="Instagram" class="text-center"><i class="bi bi-instagram pe-2"></i>インスタグラム</h3>
           insta
         </div>
       </div>
+        -->
     </div>
 
   </section>
