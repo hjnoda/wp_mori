@@ -186,6 +186,7 @@
         </figure>
       </div>
       <div class="col-xl-8">
+        <div class="ms-5 fs-3 text-primary">森 基誉則<small>（もり きよのり）</small></div>
         <dl class="profile-list">
           <dt>1975年3月</dt>
           <dd>札幌市生まれ。 父親の転勤に伴い、道内各地で幼少期を過ごしました。</dd>
@@ -198,28 +199,30 @@
           <dd>札幌市議会議員選挙（厚別区）の候補予定者として立憲民主党の公認決定。</dd>
         </dl>
         <div class="ms-md-5 mt-4 border border-primary border-2 p-4">
-          <h3 class="text-start mb-2">ラジオ番組出演</h3>
+          <h3 class="text-start mb-2">ラジオ番組出演（2023年1月末まで）</h3>
           <ul class="mb-0">
             <li>朝MORi（月-金曜日6:00 - 9:00）</li>
-            <li>ASAHI BEER presents NIKKA Bottoms up! CONNECTION（金曜日17:50 - 18:00）</li>
+            <li>夜MORi（月曜日19:00ー19:30）</li>
           </ul>
         </div>
         <div class="ms-md-5 border border-primary border-2 p-4 mt-3">
           <h3 class="text-start mb-2">過去のラジを番組</h3>
           <ul>
             <li>Dive into The Night</li>
+            <li>T.G.I.F.</li>
+            <li>Bum! Bul! Beat!</li>
             <li>scratch!</li>
             <li>MOXY</li>
-            <li>AIR-G'×平原綾香 Christmas Fantasia in 三井アウトレットパーク 札幌北広島</li>
+            <li>ASAHI BEER presents NIKKA Bottoms up! CONNECTION（金曜日17:50 - 18:00）</li>
           </ul>
           <h3 class="text-start mb-2">過去のテレビ番組出演</h3>
           <ul>
             <li>ともだっち〜ず（北海道文化放送)</li>
-            <li>土曜えき☆スタUP（北海道文化放送)</li>
+            <li>土曜えき☆スタUP（北海道文化放送) 等</li>
           </ul>
           <h3 class="text-start mb-2">ナレーション</h3>
           <ul class="mb-0">
-            <li>アサヒビール「ブラックニッカ」CM</li>
+            <li>アサヒビール「ブラックニッカ」CM 等</li>
           </ul>
         </div>
       </div>
@@ -269,11 +272,34 @@
   </section>
 
   <section id="paper">
-    <h3 title="newsletter">広報誌</h3>
-    <div class="d-flex justify-content-center mt-5">
-      <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" cols="3" tax="3" title="true"][/3d-flip-book]'); ?>
-    </div>
 
   </section>
 
+  <section id="sns">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="sns-wrap">
+          <h3 title="Twitter" class="text-center"><i class="bi bi-twitter pe-2"></i>ツイッター</h3>
+          <a class="twitter-timeline" data-height="500" data-theme="light"
+            href="https://twitter.com/KiyonoriMori?ref_src=twsrc%5Etfw">Tweets by KiyonoriMori</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="sns-wrap">
+          <h3 title="newsletter">広報誌</h3>
+          <div class="d-flex justify-content-center mt-5">
+            <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" cols="3" tax="3" title="true"][/3d-flip-book]'); ?>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="sns-wrap">
+          <h3 title="Instagram" class="text-center"><i class="bi bi-instagram pe-2"></i>インスタグラム</h3>
+          insta
+        </div>
+      </div>
+    </div>
+
+  </section>
 </div>

@@ -45,7 +45,10 @@
       }
     }
   }
-
+  .highlight {
+    background-color: $secondary;
+    color: $primary;
+  }
   // swiper pagination custom (index 共通）
   .swiper-pagination-custom {
     transform: translateX(-50%);

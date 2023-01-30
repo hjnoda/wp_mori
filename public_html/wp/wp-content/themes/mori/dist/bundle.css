@@ -510,6 +510,10 @@ a.text-primary:focus {
   aspect-ratio: 16/9;
   overflow: hidden;
 }
+.index .highlight {
+  background-color: #fffb00;
+  color: #3dae94;
+}
 .index .swiper-pagination-custom {
   left: 50% !important;
   width: 100% !important;
@@ -976,43 +980,43 @@ a.text-primary:focus {
   color: #3dae94;
 }
 .sidebar .tag-lists li:nth-child(1) {
-  background-color: rgba(177, 126, 227, 0.13);
+  background-color: rgba(83, 127, 157, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(2) {
-  background-color: rgba(191, 231, 82, 0.13);
+  background-color: rgba(9, 109, 79, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(3) {
-  background-color: rgba(84, 48, 48, 0.13);
+  background-color: rgba(139, 86, 91, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(4) {
-  background-color: rgba(231, 39, 134, 0.13);
+  background-color: rgba(229, 237, 174, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(5) {
-  background-color: rgba(71, 86, 136, 0.13);
+  background-color: rgba(38, 28, 84, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(6) {
-  background-color: rgba(60, 11, 198, 0.13);
+  background-color: rgba(194, 119, 82, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(7) {
-  background-color: rgba(166, 9, 40, 0.13);
+  background-color: rgba(123, 101, 110, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(8) {
-  background-color: rgba(30, 177, 107, 0.13);
+  background-color: rgba(53, 52, 23, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(9) {
-  background-color: rgba(143, 134, 152, 0.13);
+  background-color: rgba(222, 186, 125, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(10) {
-  background-color: rgba(221, 11, 103, 0.13);
+  background-color: rgba(18, 41, 133, 0.13);
   background-blend-mode: luminosity;
 }
 @media screen and (min-width: 768px) {
