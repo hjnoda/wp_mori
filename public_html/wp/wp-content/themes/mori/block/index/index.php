@@ -111,8 +111,8 @@
             わたしはこうした思いを代弁するだけで、自分にももっとできることがあるのではないだろうかと自問し、悩み続けていました。
           </p>
           <p>
-            導き出した答えが、<span class="text-dark fs-5">リスナーが感じている声を札幌市政に直撞眉けたい</span>というものでした。
-            ラジオを通して25年間、多くのリスナを重ね、<span class="text-dark fs-5">実生活では大書な声を上げることができない人に寄り添い、声なき声に耳を傾けることの大切さ</span>を学びました。
+            導き出した答えが、<span class="text-dark fs-5">リスナーが感じている声を札幌市政に直接届けたい</span>というものでした。
+            ラジオを通して25年間、多くのリスナーとの会話を重ねて、<span class="text-dark fs-5">実生活では大きな声を上げることができない人に寄り添い、声なき声に耳を傾けることの大切さ</span>を学びました。
           </p>
           <p>
             声なき声を言葉にすることを鍛えてき た経験を生かし、<span class="text-dark fs-5">行政、議会、市民の双方向による街づくりを進めていきたい。</span>
@@ -206,7 +206,7 @@
           </ul>
         </div>
         <div class="ms-md-5 border border-primary border-2 p-4 mt-3">
-          <h3 class="text-start mb-2">過去のラジを番組</h3>
+          <h3 class="text-start mb-2">過去のラジオ番組</h3>
           <ul>
             <li>Dive into The Night</li>
             <li>T.G.I.F.</li>
@@ -283,7 +283,7 @@
       </div>
       <div class="col-lg-6">
         <div class="sns-wrap">
-          <h3 title="newsletter">広報誌</h3>
+          <h3 title="newsletter" class="mt-5 mt-lg-0">広報誌</h3>
           <div class="d-flex justify-content-center mt-5">
             <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" cols="3" tax="3" title="true"][/3d-flip-book]'); ?>
           </div>
