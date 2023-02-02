@@ -980,43 +980,43 @@ a.text-primary:focus {
   color: #3dae94;
 }
 .sidebar .tag-lists li:nth-child(1) {
-  background-color: rgba(177, 251, 137, 0.13);
+  background-color: rgba(169, 7, 150, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(2) {
-  background-color: rgba(52, 209, 109, 0.13);
+  background-color: rgba(252, 106, 73, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(3) {
-  background-color: rgba(74, 107, 98, 0.13);
+  background-color: rgba(116, 157, 251, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(4) {
-  background-color: rgba(76, 38, 88, 0.13);
+  background-color: rgba(41, 228, 106, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(5) {
-  background-color: rgba(180, 59, 170, 0.13);
+  background-color: rgba(7, 203, 78, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(6) {
-  background-color: rgba(85, 107, 175, 0.13);
+  background-color: rgba(148, 59, 95, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(7) {
-  background-color: rgba(157, 136, 254, 0.13);
+  background-color: rgba(185, 91, 190, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(8) {
-  background-color: rgba(249, 53, 252, 0.13);
+  background-color: rgba(160, 187, 198, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(9) {
-  background-color: rgba(33, 186, 153, 0.13);
+  background-color: rgba(82, 102, 195, 0.13);
   background-blend-mode: luminosity;
 }
 .sidebar .tag-lists li:nth-child(10) {
-  background-color: rgba(80, 33, 254, 0.13);
+  background-color: rgba(238, 17, 167, 0.13);
   background-blend-mode: luminosity;
 }
 @media screen and (min-width: 768px) {
