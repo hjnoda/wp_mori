@@ -239,9 +239,11 @@
               <img src="<?= img('oen2.webp'); ?>" class="rounded-circle" width="100" height="100" alt="勝部賢志">
               <figcaption>勝部賢志 / 参議院議員</figcaption>
             </figure>
-            <!--<blockquote>
-              <p>国政と連携して、厚別区の皆様ために一緒に働ける日を楽しみにしています！！<br />森きよのりを全面バックアップします。</p>
-            </blockquote>-->
+            <blockquote>
+              <p>
+                議員は自らが信じる政策や主義主張を広く発信することが大切な仕事ですが、それにも増して大切なのは市民の声に耳を傾けること、多くの方と意見を交わすことです。ラジオDJやフリーライターとして幅広く活躍されてきた森基誉則さんは、その仕事を通して多くの市民のみなさんとの対話をし、市民の困難や苦悩、希望や要望を人一倍受け止めてきたことと思います。そうした声を市政に反映させる仕事をしたいと出馬を決意された森さんを、私も立憲民主党の仲間の皆さんと一緒に応援しています。
+              </p>
+            </blockquote>
           </div>
         </div>
         <div class="swiper-slide">
@@ -250,22 +252,24 @@
               <img src="<?= img('oen3.webp'); ?>" class="rounded-circle" width="100" height="100" alt="菅原和忠">
               <figcaption>菅原和忠 / 道議会議員</figcaption>
             </figure>
-            <!--<blockquote>
-              <p>誰に対しても気さくに丁寧に対応する森きよのりさん。共に道政と連携し、札幌市民の皆様のために働けることを切望しています。<br />頑張れ　森きよのり！！</p>
-            </blockquote>-->
+            <blockquote>
+              <p>
+                「森きよのり」さんは、ラジオパーソナリティーと25年の経験があります。リスナーと会話を重ねる中で、「リスナーが感じていることを市政で具現化したい」と、札幌市政にチャレンジします。リスナーの皆さんと双方向で培ってきた経験は、新しい札幌のまちづくりを進めるうえで、大きな力になります。わたしも「森きよのり」さんと一緒に新しい札幌づくりに挑戦していきます。
+              </p>
+            </blockquote>
           </div>
         </div>
-        <div class="swiper-slide">
+        <!-- <div class="swiper-slide">
           <div class="content-wrap">
             <figure class="figure-clear">
               <img src="<?= img('oen1.webp'); ?>" class="rounded-circle" width="100" height="100" alt="池田まき">
               <figcaption>池田まき / 立憲民主党北海道第5区総支部代表</figcaption>
             </figure>
-            <!--<blockquote>
+            <blockquote>
               <p>ラジオパーソナリティーとしての25年間をフル活用して、共に活力あふれる元気な社会を目指し、頑張りましょう。</p>
-            </blockquote>-->
+            </blockquote>
           </div>
-        </div>
+        </div>-->
       </div>
       <div class="swiper-pagination swiper-pagination-custom swiper-pagination-message"></div>
     </div>

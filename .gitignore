@@ -1,3 +1,5 @@
 node_modules
 .DS_Store
 .vscode
+public_html/wp/wp-content/.vscode/sftp.json
+*.json

@@ -979,46 +979,6 @@ a.text-primary:focus {
 .sidebar .tag-lists li a:hover {
   color: #3dae94;
 }
-.sidebar .tag-lists li:nth-child(1) {
-  background-color: rgba(169, 7, 150, 0.13);
-  background-blend-mode: luminosity;
-}
-.sidebar .tag-lists li:nth-child(2) {
-  background-color: rgba(252, 106, 73, 0.13);
-  background-blend-mode: luminosity;
-}
-.sidebar .tag-lists li:nth-child(3) {
-  background-color: rgba(116, 157, 251, 0.13);
-  background-blend-mode: luminosity;
-}
-.sidebar .tag-lists li:nth-child(4) {
-  background-color: rgba(41, 228, 106, 0.13);
-  background-blend-mode: luminosity;
-}
-.sidebar .tag-lists li:nth-child(5) {
-  background-color: rgba(7, 203, 78, 0.13);
-  background-blend-mode: luminosity;
-}
-.sidebar .tag-lists li:nth-child(6) {
-  background-color: rgba(148, 59, 95, 0.13);
-  background-blend-mode: luminosity;
-}
-.sidebar .tag-lists li:nth-child(7) {
-  background-color: rgba(185, 91, 190, 0.13);
-  background-blend-mode: luminosity;
-}
-.sidebar .tag-lists li:nth-child(8) {
-  background-color: rgba(160, 187, 198, 0.13);
-  background-blend-mode: luminosity;
-}
-.sidebar .tag-lists li:nth-child(9) {
-  background-color: rgba(82, 102, 195, 0.13);
-  background-blend-mode: luminosity;
-}
-.sidebar .tag-lists li:nth-child(10) {
-  background-color: rgba(238, 17, 167, 0.13);
-  background-blend-mode: luminosity;
-}
 @media screen and (min-width: 768px) {
   .width-max {
     padding: 0;

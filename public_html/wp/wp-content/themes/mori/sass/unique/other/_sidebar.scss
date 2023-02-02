@@ -38,12 +38,12 @@
       }
     }
   }
-  @for $i from 1 through 10 {
-    .tag-lists {
-      li:nth-child(#{$i}) {
-        background-color: rgba(random(255), random(255), random(255), 0.13);
-        background-blend-mode: luminosity;
-      }
-    }
-  }
+  // @for $i from 1 through 10 {
+  //   .tag-lists {
+  //     li:nth-child(#{$i}) {
+  //       background-color: rgba(random(255), random(255), random(255), 0.13);
+  //       background-blend-mode: luminosity;
+  //     }
+  //   }
+  // }
 }
