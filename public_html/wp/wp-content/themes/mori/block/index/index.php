@@ -24,7 +24,7 @@
           <div class="catch-text text-center">
             <img src="<?= img('rikken.svg'); ?>" width="150" class="d-none d-md-block mx-auto" alt="立憲民主党ロゴ">
             <h2><ruby>森<rt class="fs-4">もり</rt></ruby><span class="ps-4">きよのり</span></h2>
-            <p>あなたの<br>「声」をつなげて創る<br>まちづくり</p>
+            <p>あなたの<br>「声」をつなげて創る<br>街づくり</p>
           </div>
         </div>
       </div>
@@ -99,10 +99,10 @@
 
       <div class="layer-text">
         <div>
-          <h4 class="text-center">あなたの<br class="d-block d-md-none"><span class="text-dark">「声」をつなげて</span>創る<br>まちづくり
+          <h4 class="text-center">あなたの<br class="d-block d-md-none"><span class="text-dark">「声」をつなげて</span>創る<br>街づくり
           </h4>
           <p class="mt-4">
-            ラジオは、パーソナリティーとリスナーが<span class="text-dark fs-5">コミュニケーションを瞬時に藁くことができる双方向で声を上げるメディア</span>です。
+            ラジオは、パーソナリティーとリスナーが<span class="text-dark fs-5">コミュニケーションを瞬時に築くことができる双方向で声を上げるメディア</span>です。
             このユニークなメディアに私は愛情をもっています。ラジオは、リスナーからの1通のメールで化学変化が起こります。
           </p>
           <p>
@@ -112,7 +112,7 @@
           </p>
           <p>
             導き出した答えが、<span class="text-dark fs-5">リスナーが感じている声を札幌市政に直接届けたい</span>というものでした。
-            ラジオを通して25年間、多くのリスナーとの会話を重ねて、<span class="text-dark fs-5">実生活では大きな声を上げることができない人に寄り添い、声なき声に耳を傾けることの大切さ</span>を学びました。
+            ラジオを通して25年間、多くのリスナーと会話を重ね、<span class="text-dark fs-5">実生活では大きな声を上げることができない人に寄り添い、声なき声に耳を傾けることの大切さ</span>を学びました。
           </p>
           <p>
             声なき声を言葉にすることを鍛えてき た経験を生かし、<span class="text-dark fs-5">行政、議会、市民の双方向による街づくりを進めていきたい。</span>
@@ -134,7 +134,7 @@
         </div>
         <div class="col-xl-8">
           <h4 title="01">いつまでも健康に</h4>
-          <p>道民の健康向上を目的とした「北海道特定健診受診アンバサダー」を拝命しています。特定健診は生 活習慣病等の早期発見に役立ち、健康寿命を延ば す対策として有益です。多くの市民が安心して受診 できる取組みを進めます。
+          <p>道民の健康向上を目的とした「北海道特定健診受診アンバサダー」を拝命していました。特定健診は生活習慣病等の早期発見に役立ち、健康寿命を延ばす対策として有益です。多くの市民が安心して受診できる取組みを進めます。
           </p>
         </div>
       </li>
@@ -167,9 +167,8 @@
         </div>
         <div class="col-xl-8">
           <h4 title="04">安心できる子育て環境</h4>
-          <p>これまで経験したことのない少子高齢化社会を迎えます。 出産や子育てを希望する全ての人が、安心して子どもを産 み育てることのできる環境の整備が必要です。給食費や子
-            ども医療費の無料化などを実現し、札幌の将来を担う子
-            どもたちが安心して育つ環境をつくります。
+          <p>これまで経験したことのない少子高齢化社会を迎えます。出産や子育てを希望する全ての人が、安心して子どもを産み育てることのできる環境の整備が必要です。給食費や子
+            ども医療費の無料化などを実現し、札幌の将来を担う子どもたちが安心して育つ環境をつくります。
           </p>
         </div>
       </li>
@@ -193,8 +192,7 @@
           <dt>1994年3月〜</dt>
           <dd>札幌手稲高校卒業、北海学園大学経済学部経済学科入学。<br>大学在学中にラジオでパーソナリティを始める。</dd>
           <dt>1999年4月〜</dt>
-          <dd>大学卒業後、ラジオを主戦場に、道内のテレビやイベントで司会やレポ
-            トを担当しました。<br>ラジオではAIR-G'で15年ほど平日夕方のプログラムを担当した後、<br>「朝の顔」ならぬ「朝の声」として平日の生番組「朝MORi」を5年間続けました。</dd>
+          <dd>大学卒業後、ラジオを主戦場に、道内のテレビやイベントで司会やレポートを担当しました。<br>ラジオではAIR-G'で15年ほど平日夕方のプログラムを担当した後、<br>「朝の顔」ならぬ「朝の声」として平日の生番組「朝MORi」を5年間続けました。</dd>
           <dt>2023年１月</dt>
           <dd>札幌市議会議員選挙（厚別区）の候補予定者として立憲民主党の公認決定。</dd>
         </dl>
@@ -202,7 +200,7 @@
           <h3 class="text-start mb-2">最近のラジオ番組出演（2023年1月末まで）</h3>
           <ul class="mb-0">
             <li>朝MORi（月-金曜日6:00 - 9:00）</li>
-            <li>夜MORi（月曜日19:00ー19:30）</li>
+            <li>夜MORi（月曜日19:00 - 19:30）</li>
           </ul>
         </div>
         <div class="ms-md-5 border border-primary border-2 p-4 mt-3">
@@ -210,7 +208,7 @@
           <ul>
             <li>Dive into The Night</li>
             <li>T.G.I.F.</li>
-            <li>Bum! Bul! Beat!</li>
+            <li>Bum! Blo! Beat!</li>
             <li>scratch!</li>
             <li>MOXY</li>
             <li>ASAHI BEER presents NIKKA Bottoms up! CONNECTION（金曜日17:50 - 18:00）</li>
@@ -287,7 +285,7 @@
       </div>
       <div class="col-lg-6">
         <div class="sns-wrap">
-          <h3 title="newsletter" class="mt-5 mt-lg-0">広報誌</h3>
+          <h3 title="newsletter">広報誌</h3>
           <div class="d-flex justify-content-center mt-5">
             <?= do_shortcode('[3d-flip-book mode="thumbnail-lightbox" cols="3" tax="3" title="true"][/3d-flip-book]'); ?>
           </div>
