@@ -239,3 +239,7 @@ wp-config.php
 
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,node,wordpress
+
+# ignore comfiled file
+/wp-content/themes/*/dist/bundle.css
+/wp-content/themes/*/dist/main.js
